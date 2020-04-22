@@ -1,0 +1,1 @@
+document.getElementById("update-time").innerHTML = document.lastModified
