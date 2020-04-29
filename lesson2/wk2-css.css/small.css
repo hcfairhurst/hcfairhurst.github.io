@@ -1,0 +1,92 @@
+body {
+   /* max-width: 1000px;*/
+
+}
+
+h1 {
+    color: ghostwhite;
+    padding: 16px 24px;
+    position: relative;
+}
+
+header {
+    background-color: rgb(47, 85, 107);
+    padding: 8px 24px;
+    position: relative;
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+h3,
+p {
+    background-color: ghostwhite;
+    padding: 16px 24px;
+    position: relative;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    font-size: 1rem;
+    background-color: rgb(178, 201, 216);
+    font-family: 'Raleway', sans-serif;
+   
+
+
+}
+
+/* tablet views***********/
+@media only screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: auto auto;
+    }
+
+    #third-sec {
+        grid-column: span 2;
+    }
+}
+
+/**** desktop view ******/
+@media only screen and (min-width: 60em) {
+    main {
+        grid-template-columns: auto auto auto;
+    }
+
+    #third-sec {
+        grid-column: span 1;
+    }
+}
+
+main section {
+    margin: 0.5rem;
+    background-color: rgb(92, 91, 91);
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+img {
+    align-items: center;
+    width: 300px;
+    padding: 0 1rem;
+}
+
+.links {
+    color: ghostwhite;
+    text-align: center;
+    padding: 16px 24px;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(47, 85, 107);
+    text-align: center;
+    padding: 8px 24px;
+    position: relative;
+    color: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}

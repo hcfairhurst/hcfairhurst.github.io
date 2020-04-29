@@ -1,45 +1,52 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
-header, main, nav, footer {
-   margin: 1.5rem auto;
-   max-width: 700px;
-}
- img {
-     position: absolute;
-     top: 0px;
-     right: 10px;
+
+
+img {
     margin: 10px;
     width: 150px;
-    box-shadow: 10px 10px 5px -2px rgb(128, 127, 127);
-    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(128, 127, 127);
+
 }
-header,footer {
+
+header,
+footer {
+    text-align: center;
     background-color: rgb(207, 203, 203);
-    border-radius: 10px;
-   
+
+
 }
+
 header {
     font-family: 'Dancing Script', cursive;
     font-weight: 100;
     font-style: normal;
     padding: 8px 24px;
     position: relative;
+
 }
- footer {
-     padding: 4px; 
-     text-align: center;
-     line-height: 8px;
- }   
+
+footer {
+    padding: 4px;
+    text-align: center;
+
+}
+
 h1 {
     font-size: 45px;
     line-height: 18px;
 }
-#update-time { 
+
+#update-time {
     color: rgb(156, 113, 5);
+}
+
+main {
+    padding-left: 8px;
 }
