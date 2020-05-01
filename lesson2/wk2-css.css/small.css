@@ -1,12 +1,12 @@
 body {
-   /* max-width: 1000px;*/
+    background-color: rgb(178, 201, 216);
+    font-family: 'Raleway', sans-serif;
+    /* max-width: 1000px;*/
 
 }
 
 h1 {
     color: ghostwhite;
-    padding: 16px 24px;
-    position: relative;
 }
 
 header {
@@ -14,7 +14,6 @@ header {
     padding: 8px 24px;
     position: relative;
     color: ghostwhite;
-    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     text-align: center;
 
@@ -31,29 +30,24 @@ main {
     display: grid;
     grid-template-columns: auto;
     font-size: 1rem;
-    background-color: rgb(178, 201, 216);
-    font-family: 'Raleway', sans-serif;
     text-align: center;
-   
-
-
 }
-
-
 
 main section {
     margin: 0.5rem;
     background-color: rgb(92, 91, 91);
     border-radius: 10px;
     align-items: center;
-    
+
 
 }
 
 img {
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 300px;
-    padding: 0 1rem;
+    height: auto;
 }
 
 .links {
@@ -69,6 +63,5 @@ footer {
     padding: 8px 24px;
     position: relative;
     color: ghostwhite;
-    font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
