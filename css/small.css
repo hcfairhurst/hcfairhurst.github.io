@@ -28,6 +28,13 @@ header {
     position: relative;
     
 }
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: rgb(221, 219, 219);
+}
  footer {
      padding: 4px; 
      text-align: center;
