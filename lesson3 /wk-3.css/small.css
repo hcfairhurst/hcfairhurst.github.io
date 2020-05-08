@@ -1,12 +1,147 @@
-table {
-    border-collapse: collapse;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
-table, th, td {
-    border: 1px solid black;
-}
-th, td {
+
+header,
+footer {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    justify-content: center;
     padding: 10px;
 }
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1rem;
+    
+}
+
+main {
+    margin: 16px;
+}
+
+nav {
+    background-color: #B8D3E9;
+    text-align: center;
+    
+}
+
+nav ul {
+    display: block;
+    justify-content: space-around;
+    flex: 1 1 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+    }
+}
+
+nav ul li a {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #FFF275;
+    color: #000000;
+}
+
+/* specific to Target audience*/
+img {
+    max-width: 500px;
+}
+
+/* specific to Typography page*/
+#sample1 {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#sample2 {
+    font-size: 1rem;
+    
+}
+
+#sample3 {
+    background-color: #B8D3E9;
+    font-weight: 0, 100;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
 th {
     text-align: left;
+}
+
+/*specific to Color Scheme Page*/
+#corn {
+    background-color: #FFF275;
+}
+
+#ltblue {
+    background-color: #B8D3E9;
+}
+
+#darkblue {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+}
+
+#row {
+    display: block;
+    justify-content: space-around;
+    
+}
+
+@media only screen and (min-width: 37.5em) {
+    #row {
+        display: flex;
+        
+    }
+}
+
+footer a {
+    color: #FFFFFF;
 }
