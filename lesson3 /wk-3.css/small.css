@@ -56,12 +56,6 @@ nav ul {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 37.5em) {
-    nav ul {
-        display: flex;
-    }
-}
-
 nav ul li a {
     color: #000000;
     display: block;
@@ -135,12 +129,6 @@ th {
     
 }
 
-@media only screen and (min-width: 37.5em) {
-    #row {
-        display: flex;
-        
-    }
-}
 
 footer a {
     color: #FFFFFF;

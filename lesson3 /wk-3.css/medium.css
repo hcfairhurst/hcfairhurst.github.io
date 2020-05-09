@@ -2,4 +2,8 @@
      nav ul  {
          display: flex;
     }
+    #row {
+        display: flex;
+        
+    }
 }
