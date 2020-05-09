@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600&display=swap');
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -10,8 +10,8 @@ footer {
     color: #FFFFFF;
     display: flex;
     flex-flow: column;
-    align-items: left;
-    justify-content: center;
+    
+    justify-content:space-around;
     padding: 10px;
 }
 
@@ -91,7 +91,7 @@ img {
 
 #sample3 {
     background-color: #B8D3E9;
-    font-weight: 0, 100;
+    font-weight: 100;
 }
 
 table,
