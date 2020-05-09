@@ -38,6 +38,7 @@ h4 {
 
 main {
     margin: 16px;
+    
 }
 
 nav {
@@ -106,7 +107,7 @@ td {
 }
 
 th {
-    text-align: left;
+    text-align: center;
 }
 
 /*specific to Color Scheme Page*/
@@ -123,11 +124,9 @@ th {
     color: #FFFFFF;
 }
 
-#row {
-    display: block;
-    justify-content: space-around;
+
     
-}
+
 
 
 footer a {
