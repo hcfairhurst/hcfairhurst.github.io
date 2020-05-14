@@ -6,7 +6,6 @@ body {
 
 header
  {
-    
     background-color: #0D3B66;
     color: #FFFFFF;
     padding: 10px;
@@ -15,14 +14,15 @@ header
     justify-content:center;
     
 }
-footer{
+main{
+    max-width: 100%;
+    display: block;
+    padding: 8px;
+    margin: 8px auto;
+   
     
-    background-color: #0D3B66;
-    color: #FFFFFF;
-    padding: 10px;
-    align-items: center;
-    justify-content:center;
 }
+
 img{
     padding-right: 16px;
 }
@@ -30,11 +30,6 @@ img{
     display: flex;
     flex-direction: column;
     }
-
-footer a {
-    color: #FFFFFF;
-}
-
 
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -45,11 +40,11 @@ h1 {
 
 h2{
     text-align: center;
+    font-weight: 500;
 }
 
 nav{
     margin: 0 auto;
-    
     background-color:#FFDF6E;
     font-family: 'Open Sans', sans-serif;
     
@@ -105,4 +100,16 @@ nav ul li.active a{
     background-color: #FFFFFF;
    
 }
-
+footer{
+    display: block;
+    padding: 8px;
+    margin: 8px auto;
+    text-align: center;
+    max-width: 100%;
+    background-color: #0D3B66;
+    color: #FFFFFF;
+    
+   }
+   footer a {
+    color: #FFFFFF;
+}
