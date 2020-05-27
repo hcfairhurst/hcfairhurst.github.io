@@ -1,0 +1,13 @@
+@media only screen and (min-wideth: 64rem){
+    nav ul li a{padding: .6rem 1rem;} 
+    h3{
+        font-size: 3rem;
+    }
+    .section4{
+        line-height: 0px;
+    }
+    #map{
+        width: 600px;
+        height: 550px; 
+    }
+}
