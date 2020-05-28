@@ -41,19 +41,19 @@
         <h2>Preston Idaho</h2>
         <section class="section1">
             <picture class="photoA">
-                <source media="(max-width: 200px)" srcset="/lesson6/images6/wdd230_image_franklin200pxl.jpg 200w">
-                <source media="(max-width: 500px)" srcset=""> 
-               <source media="(max-width: 800px)" srcset= "/lesson6/wdd230_image_franklin800px.jpg 800w">  
-                 <img id="heroimg" src="/lesson6/images6/wdd230_image_franklinOriginal.jpeg" alt="green rolling hills">
+                <source media="(max-width: 200px)" srcset="images6/franklin200px.jpg">
+                <source media="(max-width: 500px)" srcset="images6/franklin500px.jpg"> 
+               <source media="(max-width: 800px)" srcset= "images6/franklin800px.jpg">  
+                 <img id="heroimg" src="images6/franklinOriginal.jpeg" alt="green rolling hills">
             </picture>  
             <div class="weatherSum">
                 
                 <div id="boxtitle">Weather Summary</div>
                 <div class="contentbox">Currently : Sunny</div>
-                <div class="contentbox">High : 60° F</div><!--temp-->
-                <div class="contentbox">Wind Chill : 58° F</div><!--windchill-->
+                <div class="contentbox">High :<span id="temp"> 50 </span>°F</div><!--temp-->
+                <div class="contentbox">Wind Chill : <span id="chillWind"> </span> °F</div><!--windchill-->
                 <div class="contentbox">Humitdity : 20%</div>
-                <div class="contentbox">Wind Speed : 9 mph</div><!--wind-->
+                <div class="contentbox">Wind Speed :<span id="wind"> 15</span> mph</div><!--wind-->
             </div>
         </section>
         
@@ -177,6 +177,7 @@
                                 
                             </footer>
                             <script src="wk6js/main.js"></script>
+                            <script src="wk6js/windchill.js"></script>
                         </body>
                         
                         
