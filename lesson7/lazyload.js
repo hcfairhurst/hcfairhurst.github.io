@@ -10,7 +10,7 @@ function preloadImage(img){ /* everytime this is called by the observer/else sta
 }
 
 const imgOptions = {
-    threshold: 1,
+    threshold: .5,
     rootMargin: "0px"
 };
 /*this is the observer that looks to see if the image is in the viewport*/
@@ -22,7 +22,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver)=> {
         if(!entry.isIntersecting){
             return;
         }  
-        /* when the entry intersects it will call the preload funtion to load out image*/
+        /* when the entry intersects it will call the preload function to load out image*/
         else {
             preloadImage(entry.target);
             imgObserver.unobserve(entry.target);/* after the image loads we want it to stop observing because it no longer needs to load*/

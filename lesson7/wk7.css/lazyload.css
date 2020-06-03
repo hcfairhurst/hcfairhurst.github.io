@@ -3,11 +3,17 @@ text-align: center;
 }
 .gallery{
     display: grid;
-    grid-gap: 16px;
+    grid-gap: 8px;
     grid-auto-rows: auto;
      justify-content: center;
 }
-img{
-    width: 300px;
-    
-}
+
+  /*picture img[data-src] {
+        filter: blur(0.2em);
+      }
+      
+ picture img{
+        filter: blur(0em);
+        transition: filter 0.5s;
+      }
+    */

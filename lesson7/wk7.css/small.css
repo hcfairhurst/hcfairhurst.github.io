@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+}
+body{
+    background-color:#B8D3E9;
+}
+picture{
+    width: 200px;
+    height: 300px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
