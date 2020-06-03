@@ -10,7 +10,7 @@ function preloadImage(img){ /* everytime this is called by the observer/else sta
 }
 
 const imgOptions = {
-    threshold: .5,
+    threshold: 1,
     rootMargin: "0px"
 };
 /*this is the observer that looks to see if the image is in the viewport*/
