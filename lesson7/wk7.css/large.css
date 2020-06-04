@@ -3,6 +3,7 @@
     
     font-size: 3rem;
     }
+    nav ul li a{padding: .6rem 1rem;} 
    .grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);

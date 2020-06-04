@@ -7,6 +7,7 @@ function preloadImage(img){ /* everytime this is called by the observer/else sta
         return;
     }
     img.src = src;/* we are setting the src to the data-src, so that the img.src will be replaced with the data-src.*/
+    img.removeAttribute('data-src');
 }
 
 const imgOptions = {
