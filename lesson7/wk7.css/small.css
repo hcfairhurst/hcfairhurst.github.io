@@ -1,16 +1,47 @@
-
-h1{
+header{
+    padding: 2rem;
     text-align: center;
+    background-color: #0D3B66;
 }
+h1{
+   color: white;
+    }
 body{
     background-color:#B8D3E9;
+    margin: 1rem;
 }
-picture{
-    width: 200px;
-    height: 300px;
+main{
+    margin: 0px auto;
 }
+img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+}
+figure{
+    background-color: white;
+   border: .5rem solid white;
+    align-content: center;
+    box-shadow: -10px 5px 5px gray;
+
+
+}
+figcaption{
+    display: none;
+    
+    text-align: center;
+}
+
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 16px;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+     justify-content: center;
+     max-width: 1050px;
+     margin: 1rem auto;
+}
+footer{
+    padding: 2rem;
+    background-color: #0D3B66;
 }
