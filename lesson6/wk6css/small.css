@@ -13,8 +13,7 @@ body {
 img{
     padding-right: 16px;
 }
-header
-{
+header{
     background-color: #0D3B66;
     color: #FFFFFF;
     padding: 10px;
@@ -23,6 +22,7 @@ header
     justify-content:center;
     
 }
+
 .headings{
     display: flex;
     flex-direction: column;
