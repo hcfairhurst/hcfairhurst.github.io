@@ -20,17 +20,8 @@ table {
   margin: 0 auto;
   margin-top: 2rem;
 }
-
-.activetop {
-  background-color: #628ca6;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.active {
-  background-color: #628ca6;
-  color: #FFFFFF;
+b:only-child {
+  color: white;
 }
 
 tr:nth-child(odd) {
@@ -62,6 +53,6 @@ tfoot tr td {
   font-size: .8rem;
 }
 
-#blackfri {
-  font-style: italic;
+#active{
+  color: #ffffff;
 }
