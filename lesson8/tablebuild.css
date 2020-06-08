@@ -1,0 +1,37 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  table {
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 115%;
+    overflow: auto;
+    width: auto;
+    box-shadow: 10px 10px 10px #628ca6;
+
+  }
+  .active{
+    background-color:#628ca6;
+    color: #FFFFFF;
+  }
+  tr:nth-child(odd) {
+     background-color: #e7f0ed;
+    color: #000000
+  }
+  tr:nth-child(even) {
+     background-color:#e7ffed ;
+  }
+    th, tfoot tr td {
+      background-color: #7fb9c2 ;
+      color: #000000;
+     font-weight: bold;
+      padding: 20px 30px;
+      text-align: center;
+   }
+    td {
+    padding: 20px 30px;
+    }
+  
+  
