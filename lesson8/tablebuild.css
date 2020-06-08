@@ -1,37 +1,67 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  table {
-    font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 115%;
-    overflow: auto;
-    width: auto;
-    box-shadow: 10px 10px 10px #628ca6;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
-  }
-  .active{
-    background-color:#628ca6;
-    color: #FFFFFF;
-  }
-  tr:nth-child(odd) {
-     background-color: #e7f0ed;
-    color: #000000
-  }
-  tr:nth-child(even) {
-     background-color:#e7ffed ;
-  }
-    th, tfoot tr td {
-      background-color: #7fb9c2 ;
-      color: #000000;
-     font-weight: bold;
-      padding: 20px 30px;
-      text-align: center;
-   }
-    td {
-    padding: 20px 30px;
-    }
-  
-  
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(190, 190, 190);
+  border-collapse: collapse;
+}
+
+table {
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+  box-shadow: 10px 10px 10px #628ca6;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.activetop {
+  background-color: #628ca6;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.active {
+  background-color: #628ca6;
+  color: #FFFFFF;
+}
+
+tr:nth-child(odd) {
+  background-color: #e7f0ed;
+  color: #000000
+}
+
+tr:nth-child(even) {
+  background-color: #e7ffed;
+}
+
+th,
+tfoot tr td {
+  background-color: #7fb9c2;
+  color: #000000;
+  padding: 10px 10px;
+}
+
+td {
+  padding: 10px 9px;
+}
+
+th {
+  font-weight: bold 700;
+  font-size: 1.75rem;
+}
+
+tfoot tr td {
+  font-size: .8rem;
+}
+
+#blackfri {
+  font-style: italic;
+}
