@@ -92,8 +92,13 @@ form label.sbs{
 
 }
 form label.top input, form label.top select{
+    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0, 0.1);
 
 }
 form input.submitBtn{

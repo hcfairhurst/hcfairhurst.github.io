@@ -55,7 +55,7 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="top"> Storm Date <input type="date" name="date"></label>
-
+                 <!--Storm Type Drop down datalist --> 
                 <label class="top" for="stormtype">Storm Type:
                     <input type="list" name="stormtype" list="stormlist" placeholder="  click to select">
                     <datalist id="stormlist">
@@ -65,13 +65,13 @@
                         <option value="Thunderstorm">
                         <option value="Tornado">
                     </datalist>
-
-                    <label class="top" for="rating">Rate Storm Severity:
+                    <!--Severity Slider --> 
+                    <label class="top" for="rating">Rate Storm Severity:<span id="rating"> 5 </span>
+                        
                         <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
-                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">  </label>
-                        <span id="ratingvalue">5</span>
-                  
-                    <datalist id="tickmarks">
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> 
+                         </label>
+                     <datalist id="tickmarks">
                         <option value="0">
                         <option value="1">
                         <option value="2">
@@ -84,30 +84,39 @@
                         <option value="9">
                         <option value="10">
                     </datalist>
+                <!--Select Drop down -->  
+                 <label class="top">Storm Region
+                    <select name="region">
+                        <option>Select Region...</option>
+                         <option value="preston">Preston</option>
+                        <option value="sodasprings">Soda Springs</option>
+                        <option value="fishhaven">Fish Haven</option>
+                    </select>
+                        
 
-                    <label class="top" for="region">Storm region
-                        <input type="list" name="region" list="arealist"></label>
-                    <datalist id="arealist">
-                        <option> Select Region </option>
-                        <option value="Preston"></option>
-                        <option value="Soda Springs"></option>
-                        <option value="Fish Haven"></option>
-                    </datalist>
+
+                        
+                    
                   
                        <!-- Radio button problem can't figure out why they won't format -->  
-                        <div>Audience</div>
-                       <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
-                       <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
-                       <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
-   
-                    </label>
-                    <label class="top" for="comments">Additional information and Comments</label>
+                      <fieldset class="radioButton"> 
+                           <div class="top">Personal Danger Level</div>
+
+                       
+                <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="radio"><input type="radio" name="danger" value="no"> No</label>
+            </fieldset>
+        </fieldset>
+            <fieldset>
+                <legend>Additional Info/Comments</legend>
+                    <label class="top" for="comments"></label>
                     <textarea name="comments" rows="10" cols="30">
 
                     </textarea>
-            </fieldset>
+            
 
-
+                </fieldset>
 
             <input type="submit" value=" Report Your Weather " class="submitBtn">
 
