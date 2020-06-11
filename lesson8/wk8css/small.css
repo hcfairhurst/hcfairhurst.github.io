@@ -91,8 +91,9 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 /*input form starts here*/
+
  form fieldset {
-    margin: 2rem 0;
+    margin: 0 auto;
     border: 4px solid #FFFFFF;
     border-radius: 10px;
    padding: .5rem 2%;
@@ -156,8 +157,12 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    box-shadow: 1px 1px 1px;
 }
-
+textarea {
+    box-shadow: 1px 1px 1px ;
+    width: 96%;
+}
 form label.top input:required {
     border-left: red solid 6px;
     }
