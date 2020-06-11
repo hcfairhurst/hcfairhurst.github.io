@@ -1,7 +1,8 @@
+/* this is the navigation drop menu in the small view */
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
   }
-  
+  /* this is the current date in the footer*/
   try {
     const options = {
       weekday: 'long',

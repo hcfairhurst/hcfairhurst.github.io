@@ -90,6 +90,57 @@ nav ul li.active a {
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+/*input form starts here*/
+fieldset {
+    margin: 2rem 0;
+	background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    border: 5px solid #FFFFFF;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color: #000;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    border: 5px solid #FFFFFF;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: .8rem;
+}
+form label.top input{
+    display: block;
+    font-size: 1rem;
+    border: solid 2px #0D3B66;
+    border-radius: 2px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #FFDF6E;
+    color: #000;
+    border-radius: .5rem;
+    border: 2px solid #cccccc;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form input.top input:required{
+    border-left: red solid 6px;
+    
+}
 /*this is for the Thank you page*/
 main h1, main p {
     padding: 1rem;
