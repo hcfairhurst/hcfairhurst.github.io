@@ -103,11 +103,12 @@ form fieldset {
 
 form legend {
     color: #000;
-    padding: 0 .5rem;
+    padding: 0 .8rem;
     font-size: 1.5rem;
     border: 5px solid #FFFFFF;
+    border-radius: 4px;
     background-color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     margin-top: 2rem;
 }
 
@@ -122,13 +123,13 @@ form div {
 
 .top input,
 .top select {
-
+    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     padding: .75rem;
     border-radius: 4px;
     border: 1px solid;
-    width: 100%;
+    width: 90%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
