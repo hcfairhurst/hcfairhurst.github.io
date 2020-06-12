@@ -41,11 +41,11 @@
     </nav>
     <main>
         <h1> Report significant weather</h1>
-        <form>
+        <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top"> Full Name* <input type="text" name="fname" minlength="5" required
-                        pattern="#"></label>
+                <label class="top"> Full name* <input type="text" name="fullname" required
+                        pattern="[a-zA-Z\.\p{L}]{5,}" placeholder="First Last"></label>
                 <label class="top"> Phone <input type="tel" name="phone" placeholder="###-###-####" required></label>
                 <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
                         required></label>
@@ -100,7 +100,7 @@
                   
                        <!-- Radio button problem can't figure out why they won't format -->  
                       <fieldset class="radioButton"> 
-                           <div class="top">Personal Danger Level</div>
+                           <div class="radio">Personal Danger Level</div>
 
                        
                 <label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
