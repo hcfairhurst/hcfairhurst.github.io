@@ -109,12 +109,7 @@ form legend{
     text-align: center;
      margin-top: 2rem 0;
 }
-.radioButton{
-    
-    padding: 1rem;
-    margin: 1.5rem 0;
-    padding-top: 0px;
-}
+
 
 form label.top, form div {
     display: block;
@@ -122,16 +117,7 @@ form label.top, form div {
     color: #0D3B66;
     font-size: .8rem;
 }
-/*form label.top input{
-    display: block;
-    font-size: 1rem;
-    border: solid 2px #0D3B66;
-    border-radius: 2px;
-    padding: .75rem;
-    width: 100%;
-    max-width: 20rem;
-}
-*/
+
 form label.top input, form label.top select {
     
         display: block;
@@ -143,10 +129,10 @@ form label.top input, form label.top select {
         max-width: 20rem;
         background-color: rgba(0, 0, 0, 0.1);
 }
-form label.radio {
+form label.sbs {
     display: block;
     padding: .75 rem 0;
-    color: #000;
+    
 }
 form input.submitBtn {
     border: none;
