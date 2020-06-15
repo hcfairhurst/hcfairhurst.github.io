@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>Latter-day Prophets assignment cards/ using json data and manipulating the DOM</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+    <link rel="stylesheet" href="/lesson9/wk-9.css/prophets.css">
+</head>
+
+<body>
+    
+    <header>
+        <h1>Latter-day Prophets</h1>
+    </header>
+    <main>
+        <div class="cards">
+            <section><h2></h2>
+            <p><img src="" alt=""></p>    
+        </section></div>
+        
+        
+    </main>
+    <footer>
+        Heidi Fairhurst | BYU-Idaho | WDD 230
+    </footer>
+    
+    <script>
+        /*const header = document.querySelector('header');
+        const section = document.querySelector('section');*/
+        /* create a variable that stores the json file path*/
+        const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+        /* use a fetch method/function that takes the variable/URL and returns json data*/
+        fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const prophets = jsonObject['prophets'];
+
+    
+  for (let i = 0; i < prophets.length; i++ ){  
+        let card = document.createElement('section');
+        let h2 = document.createElement('h2');
+       let bDay = document.createElement('p');
+        let image = document.createElement('img');
+        let alt = document.createElement('alt');
+
+        alt.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' - ' + prophets[i].order);
+        image.setAttribute('src', prophets[i].imageurl);
+        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+       bDay.textContent = 'Birthdate: ' + prophets[i].birthdate;
+       
+       card.appendChild(alt);
+       card.appendChild(image);
+       card.appendChild(bDay);
+        card.appendChild(h2); 
+        document.querySelector('div.cards').appendChild(card); 
+    }
+  
+});     
+           
+           
+             </script>
+              </body>
+               </html>
