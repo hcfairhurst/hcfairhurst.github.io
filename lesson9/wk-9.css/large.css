@@ -10,4 +10,7 @@
     input.submitBtn {
         margin-left: 12rem;
     }
+    .towns{
+        grid-template-columns: repeat(3,1fr);
+    }
     }
