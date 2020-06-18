@@ -12,23 +12,18 @@
       }
       form legend{
         text-align: center;
-      }
+      }/* json side by side format starts here*/
       .town{
         grid-template-columns: repeat(2, 1fr);
         max-width: 670px;
       }
-      div.picture img{
-        
-        height: 100%;
-        border-radius: 0px 25px 25px 0px;
-      }
+      
       div.info{
         margin: 1.5rem;
       }
       section:nth-child(odd) .picture{
         grid-column: 2;
-        border-radius: 25px 25px 25px 0px;/*how do I change this radius*/
-       
+        
       }
       section:nth-child(odd) .info {
         grid-column: 1;

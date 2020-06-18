@@ -98,24 +98,29 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 /*town cards start here for weather home page*/
+
 .town{
     display: grid;
      grid-gap: 0px;
     grid-auto-columns: auto;
      justify-content: center;
-     max-width: 70%;
+     max-width: auto;
      margin: 2rem auto;
      background-color: #FFFFFF;
      border-radius: 2rem;
    /* medium query grid-template-columns: repeat(3, 1fr);*/
 }
 div.picture{
-    width: 100%;
+   
     margin: 0 auto;
 }
 div.picture img{
-    width: 100%;
-    border-radius: 25px 25px 0px 0px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    align-content: center;
    
 }
 div.info{
