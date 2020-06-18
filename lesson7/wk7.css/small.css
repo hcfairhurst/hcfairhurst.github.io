@@ -102,10 +102,11 @@ main{
 }
 figure{
     background-color: white;
-   border: .5rem solid white;
+    border-radius: 20px;
+    border: .5rem solid white;
     align-content: center;
     box-shadow: -10px 5px 5px gray;
-
+    
 
 }
 figcaption{
