@@ -66,11 +66,14 @@ fetch(requestURL)
         info.appendChild(pop);
         info.appendChild(rain);
         // picture div
-        let picture = document.createElement('div')
+        let picture = document.createElement('div');
         picture.classList.add('picture');
         let img = document.createElement('img');
         img.setAttribute('src', "images9/" + town.photo);
         picture.appendChild(img);
+        let alt = document.createElement('alt');
+        alt.setAttribute('alt', town.name);
+        picture.appendChild(alt);
         // append info and picture to section
         section.appendChild(picture)
         section.appendChild(info)
@@ -84,3 +87,9 @@ fetch(requestURL)
 
 
   })
+  /*this is the font web loader*/
+  WebFont.load({
+    google: {families: ['Open Sans']
+}
+}
+);

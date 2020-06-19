@@ -104,11 +104,26 @@ nav a:hover {
      grid-gap: 0px;
     grid-auto-columns: auto;
      justify-content: center;
-     max-width: auto;
+     
      margin: 2rem auto;
      background-color: #FFFFFF;
      border-radius: 2rem;
-   /* medium query grid-template-columns: repeat(3, 1fr);*/
+     box-shadow: -10px 5px 5px gray;
+   
+}
+#weatherArticle {
+    display: block;
+    margin: 0 auto;
+   padding: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    box-shadow: -10px 5px 5px gray;
+    
+   
+  
+    
 }
 div.picture{
    

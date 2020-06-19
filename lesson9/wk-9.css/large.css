@@ -19,15 +19,15 @@
     display:flex;
     flex-direction: column;
     margin: 1rem;
-    max-width: auto;
-    max-height: auto;
+    
+    
    
 }
-.picture{
-   
+#weatherArticle {
+    display: none;
 }
   div.picture img{
-        height: auto;
+        
         width: 10rem;
         height: 10rem;
         
