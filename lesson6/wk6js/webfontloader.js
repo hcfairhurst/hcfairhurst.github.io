@@ -1,5 +1,7 @@
 WebFont.load({
-    google: {families: ['Open Sans']
+    google: {
+        families: [
+            'Open Sans'
+    ]
 }
-}
-);
+});
