@@ -56,7 +56,7 @@ fetch(requestURL)
         let pop = document.createElement('p');
         let rain = document.createElement('p');
         h2.textContent = town.name;
-        motto.textContent =  'Motto: ' + town.motto;
+        motto.textContent = 'Motto: ' + town.motto;
         year.textContent = 'Year Founded: ' + town.yearFounded;
         pop.textContent = 'Current Population: ' + town.currentPopulation;
         rain.textContent = 'Average Rainfall: ' + town.averageRainfall;
@@ -77,9 +77,9 @@ fetch(requestURL)
         // append info and picture to section
         section.appendChild(picture)
         section.appendChild(info)
-        
 
-       document.getElementById('towns').appendChild(section);
+
+        document.getElementById('towns').appendChild(section);
       }
 
 
@@ -87,9 +87,9 @@ fetch(requestURL)
 
 
   })
-  /*this is the font web loader*/
-  WebFont.load({
-    google: {families: ['Open Sans']
-}
-}
-);
+/*this is the font web loader*/
+WebFont.load({
+  google: {
+    families: ['Open Sans']
+  }
+});

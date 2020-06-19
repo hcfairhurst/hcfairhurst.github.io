@@ -3,14 +3,16 @@ body {
     background-color: #B8D3E9;
     margin: 1rem;
 }
-#pancake{
+
+#pancake {
     background-color: #FFDF6E;
     padding: 1.5rem;
     text-align: center;
     font-style: italic;
     display: none;
-    
+
 }
+
 header {
     background-color: #0D3B66;
     color: #FFFFFF;
@@ -50,6 +52,7 @@ h4 {
     font-style: italic;
     margin: auto;
 }
+
 /* every pages nav starts here*/
 nav {
     margin: 0 auto;
@@ -97,57 +100,65 @@ nav ul li.active a {
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
 /*town cards start here for weather home page*/
 
-.town{
+.town {
     display: grid;
-     grid-gap: 0px;
+    grid-gap: 0px;
     grid-auto-columns: auto;
-     justify-content: center;
-     
-     margin: 2rem auto;
-     background-color: #FFFFFF;
-     border-radius: 2rem;
-     box-shadow: -10px 5px 5px gray;
-   
+    justify-content: center;
+
+    margin: 2rem auto;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    box-shadow: -10px 5px 5px gray;
+
 }
+
 #weatherArticle {
     display: block;
     margin: 0 auto;
-   padding: 1rem;
+    padding: 1rem;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     background-color: #FFFFFF;
     box-shadow: -10px 5px 5px gray;
-    
-   
-  
-    
+
+
+
+
 }
-div.picture{
-   
+
+div.picture {
+
     margin: 0 auto;
 }
-div.picture img{
+
+div.picture img {
     margin: 1rem;
     padding: 1rem;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
     align-content: center;
-   
+
 }
-div.info{
+
+div.info {
     margin: 2rem;
 }
+
 div.info p {
     padding: 0px;
     margin: .5rem;
 }
-div.info h4{
+
+div.info h4 {
     margin: 1.5rem;
 }
+
 /*input form starts here*/
 
 form fieldset {
@@ -155,7 +166,7 @@ form fieldset {
     border: 4px solid #FFFFFF;
     border-radius: 10px;
     padding: .5rem 2%;
-   
+
 }
 
 form legend {
@@ -191,24 +202,26 @@ form div {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-form label.sbs  {
+form label.sbs {
     display: block;
     padding: .50rem 0;
-    
+
 }
-#ratingvalue{
+
+#ratingvalue {
     padding: 1rem 0px;
     font-size: 1.25rem;
 }
 
 .flexly {
-   
+
     display: flex;
     flex-direction: column;
     max-width: 20rem;
     color: #0D3B66;
     font-size: .8rem;
 }
+
 input.submitBtn {
     margin: 1rem 0 1rem 1rem;
     background-color: #FFDF6E;
@@ -226,7 +239,7 @@ textarea {
     width: 96%;
 }
 
- .top input:required {
+.top input:required {
     border-left: red solid 6px;
 }
 
