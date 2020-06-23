@@ -11,3 +11,10 @@ fetch(apiURL)
      main.temp to that Id and placing it in the HTML span*/
      
   });
+  const dayForecastURL = "https://pro.openweathermap.org/data/2.5/forecast/hourly?id=5604473&appid=3857ba2acf06e72d887f7365beccbbad";
+  fetch(dayForecastURL)
+  .then((response) => response.json())
+  .then((jsObject) => {
+      console.log(jsObject);
+      
+  });
