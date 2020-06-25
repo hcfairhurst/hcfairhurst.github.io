@@ -6,7 +6,7 @@ fetch(apiURL)
     document.getElementById('current').textContent = "Currently : " + jsObject.weather[0].description;
     document.getElementById('high').textContent = "High : " + jsObject.main.temp;
     document.getElementById('humid').textContent = "Humidity : " + jsObject.main.humidity + "%";
-    document.getElementById('wind').textContent = jsObject.wind.speed;
+    document.getElementById('wind').textContent = "Wind Speed : " + jsObject.wind.speed;
     /* we created a span with the id of current-temp, we are assigning the json data 
      main.temp to that Id and placing it in the HTML span*/
      
