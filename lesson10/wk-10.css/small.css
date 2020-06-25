@@ -193,8 +193,10 @@ margin: 0 2%;
 }
 .forecast img{
     padding-top:16px;
-    width: 50%;
-    border-radius: 100px;
+    width: 83%;
+    
+    background-color:#dee0e2;
+    
 }
 .temp{
     display: block;
