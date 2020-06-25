@@ -11,19 +11,30 @@ fetch(apiURL)
      main.temp to that Id and placing it in the HTML span*/
      
   });
+  
   const dayForecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=3857ba2acf06e72d887f7365beccbbad&units=imperial";
   fetch(dayForecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
       console.log(jsObject);/* this lets me see all the json data in the console*/
+      
       const myList = jsObject['list'];/* this is the array with 40 objects*/
-    const sixoclock = myList.filter(x => x.myList.dt_txt.includes("18:00:00")); 
-      
-
-      sixoclock.foreach( list => {
-        let tableData = document.getElementById('monForcast');
-        monForcast.textContent = main.temp;
-      
-      });
+    
+    
+    
+    
+      const sixoclock = myList.filter(x => x.dt_txt.includes("18:00:00")); /* I want to
+    create a smaller list with only objects that are at 6:00, 18:00:00*/
+    console.log(sixoclock);  
+    const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thurs', 'Fri', 'Sat'];
+    let day = 0;
+ sixoclock.forEach(forecast => {
+   let d = new Date(forecast.dt_txt);
+  document.getElementById(`high${day+1}`).textContent = forecast.main.temp;
+  document.getElementById(`dayofweek${day+1}`).textContent =weekdays[d.getDay()];
+  day++;
+ });
+ 
+   
       
   });

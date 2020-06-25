@@ -1,5 +1,5 @@
 function calcWind(){
-    let temp = parseFloat(document.getElementById("temp").textContent);
+    let temp = parseFloat(document.getElementById("high").textContent);
     let wind = parseFloat(document.getElementById("wind").textContent);
     let result = windChill(temp,wind);
     
