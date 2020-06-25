@@ -31,7 +31,7 @@ fetch(apiURL)
  sixoclock.forEach(forecast => {
    let d = new Date(forecast.dt_txt);
   document.getElementById(`high${day+1}`).textContent = forecast.main.temp;
-  document.getElementById(`dayofweek${day+1}`).textContent =weekdays[d.getDay()];
+  document.getElementById(`day${day+1}`).textContent = weekdays[d.getDay()];
   day++;
  });
  
