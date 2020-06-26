@@ -5,7 +5,7 @@ fetch(apiURL)
     /*this is the variable for the json data we requested*/
     console.log(jsObject); /* this check to see if the json data is being called*/
     document.getElementById('current').textContent = "Currently : " + jsObject.weather[0].description;
-    document.getElementById('high').textContent = "High : " + jsObject.main.temp.toFixed(0);
+    document.getElementById('high').textContent = "High : " + jsObject.main.temp;
     document.getElementById('humid').textContent = "Humidity : " + jsObject.main.humidity + "%";
     document.getElementById('wind').textContent = "Wind Speed : " + jsObject.wind.speed;
     /* we created a span with the id of current-temp, we are assigning the json data 
@@ -33,7 +33,7 @@ fetch(dayForecastURL)
     sixoclock.forEach(forecast => {
       let d = new Date(forecast.dt_txt);
       
-      document.getElementById(`high${day+1}`).textContent = forecast.main.temp.toFixed(0) + "° F";
+      document.getElementById(`high${day+1}`).textContent = forecast.main.temp;
       document.getElementById(`day${day+1}`).textContent = weekdays[d.getDay()];
       
  

@@ -14,7 +14,7 @@ try {
 } catch (e) {
   alert('Error with code or your browser does not support Locale');
 }
-/* this changes the displayed number on the slider*/
+/* this changes the displayed number on the form slider*/
 function adjustRating(rating) {
   document.getElementById("ratingvalue").innerHTML = rating;
 }

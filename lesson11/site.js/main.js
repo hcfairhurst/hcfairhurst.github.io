@@ -69,7 +69,7 @@ fetch(requestURL)
         let picture = document.createElement('div');
         picture.classList.add('picture');
         let img = document.createElement('img');
-        img.setAttribute('src', "images9/" + town.photo);
+        img.setAttribute('src', "siteimages/" + town.photo);
         picture.appendChild(img);
         let alt = document.createElement('alt');
         alt.setAttribute('alt', town.name);
