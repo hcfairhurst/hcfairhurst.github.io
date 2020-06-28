@@ -269,7 +269,7 @@ main.preston {
     line-height: 0.5rem;
     background-color: #0D3B66;
     border: 2px solid  #FFFFFF;
-    position:absolute;
+    position: absolute;
     top: 15px;
     left: 110px;
     opacity: .85;
@@ -333,6 +333,7 @@ margin: 0 2%;
     width: 50%;
     border-radius: 100px;
     background-color:#B8D3E9;
+    
 }
 .temp{
     display: block;
@@ -345,12 +346,35 @@ margin: 0 2%;
     background-color:  #B8D3E9;
     padding: 16px;
 }
+.section3 h4 {
+    margin-bottom: 1rem;
+}
+.section3 p{
+    text-align: left;
+}
+.readLink {
+    margin: 1rem 0 1rem 1rem;
+    background-color: #FFDF6E;
+    color: #000;
+    border-radius: 6px;
+    border: 2px solid #cccccc;
+    padding: .75rem 1.5rem;
+    width: 100%;
+    max-width: 8rem;
+    box-shadow: 1px 1px 1px;
+}
+.readLink a {
+    text-decoration: none;
+    color: black;
+}
 #articleimg{
     float: right;
-    max-width: 90%;
+    max-width: 70%;
     margin-right: 15px;
-    border-radius: 5px;
-    padding: 1em;
+    border-radius: 8px;
+    margin: 1rem;
+    
+    box-shadow: 0 0 2px rgb(5, 5, 5);
     
 }
 /*gallery place holder and picture blur start here*/
