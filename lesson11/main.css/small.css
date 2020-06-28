@@ -125,10 +125,6 @@ nav a:hover {
     border-radius: 50%;
     background-color: #FFFFFF;
     box-shadow: -10px 5px 5px gray;
-
-
-
-
 }
 
 div.picture {
@@ -256,18 +252,19 @@ main p {
 
 /*this is for the Preston page */
 
-main{
+main.preston {
     max-width: 100%;
     display: block;
     padding: 8px;
     margin: 8px auto;
+    background-color: #FFFFFF;
 }
-.section1{
+.section1 {
     margin: 10px auto;
     position: relative;
     
 }
-.weatherSum{
+.weatherSum {
     font-size: 14px;
     line-height: 0.5rem;
     background-color: #0D3B66;
@@ -356,7 +353,44 @@ margin: 0 2%;
     padding: 1em;
     
 }
+/*gallery place holder and picture blur start here*/
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img{
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+main.gallery{
+    margin: 0px auto;
+    background-color: #B8D3E9;
+}
+figure{
+    background-color: white;
+    border-radius: 20px;
+    border: .5rem solid white;
+    align-content: center;
+    box-shadow: -10px 5px 5px gray;
+    
 
+}
+figcaption{
+    display: none;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 0px;
+    grid-auto-columns: auto;
+     justify-content: center;
+     max-width: 1050px;
+     margin: 1rem auto;
+}
 
 /* this is the Contact info*/
 .section4{

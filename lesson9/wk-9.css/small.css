@@ -256,18 +256,18 @@ main p {
 
 /*this is for the Preston page */
 
-main{
+main {
     max-width: 100%;
     display: block;
     padding: 8px;
     margin: 8px auto;
 }
-.section1{
+.section1 {
     margin: 10px auto;
     position: relative;
     
 }
-.weatherSum{
+.weatherSum {
     font-size: 14px;
     line-height: 0.5rem;
     background-color: #0D3B66;

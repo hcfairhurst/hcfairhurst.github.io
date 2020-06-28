@@ -16,7 +16,10 @@
   form legend {
     text-align: center;
   }
-
+/* this is the gallery grid code*/
+.grid{
+  grid-template-columns: repeat(2, 1fr);
+  }
   /* json side by side format starts here*/
   .town {
     grid-template-columns: repeat(2, 1fr);
@@ -87,8 +90,3 @@
   }
 }
 
-/* table,
-th,
-td {
-  border: 1px solid black;
-}*/

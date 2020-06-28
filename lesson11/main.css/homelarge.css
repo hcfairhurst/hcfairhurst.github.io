@@ -1,19 +1,6 @@
-@media only screen and (min-wideth: 65rem) {
+@media only screen and (min-width: 65rem) {
     nav ul li a {
         padding: .6rem 1rem;
-    }
-
-    h3 {
-        font-size: 3rem;
-    }
-
-    .section4 {
-        line-height: 0px;
-    }
-
-    #map {
-        width: 600px;
-        height: 550px;
     }
 
     /*this is for the form*/
@@ -29,7 +16,6 @@
         margin-left: 12rem;
     }
 
-    /* this is the home page */
     #towns {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -50,6 +36,7 @@
 
         width: 10rem;
         height: 10rem;
+
+
     }
-   
 }

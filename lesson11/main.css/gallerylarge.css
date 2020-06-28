@@ -1,0 +1,20 @@
+@media only screen and (min-width: 65rem){
+    h1 {
+    
+    font-size: 3rem;
+    }
+    nav ul li a{padding: .6rem 1rem;} 
+   .grid {
+       
+        grid-template-columns: repeat(3, 1fr);
+       
+    }
+    figcaption{
+        background-color: #fff;
+        display: block;
+        
+    }
+    figure:hover{
+        box-shadow: 0 0 50px #333;
+    }
+}
