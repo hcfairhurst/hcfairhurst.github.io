@@ -30,7 +30,9 @@ picture {
     display: flex;
     flex-direction: column;
 }
-
+.headings div{
+    margin-left: 16px;
+}
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -102,7 +104,19 @@ nav a:hover {
 }
 
 /*town cards start here for weather home page*/
+.offer{
 
+  background-color: #FFFFFF; 
+  margin: 1rem auto;
+    
+    color: #000;
+    border-radius: 6px;
+    border: 2px solid #cccccc;
+    padding: .75rem 1.5rem;
+    width: 100%;
+    max-width: 20rem;
+    
+}
 .town {
     display: grid;
     grid-gap: 0px;
@@ -353,7 +367,7 @@ margin: 0 2%;
     text-align: left;
 }
 .readLink {
-    margin: 1rem 0 1rem 1rem;
+    margin: 1rem auto;
     background-color: #FFDF6E;
     color: #000;
     border-radius: 6px;
