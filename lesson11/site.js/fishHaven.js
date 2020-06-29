@@ -47,4 +47,3 @@ fetch(dayForecastURL)
 
 
   });
-5607916
