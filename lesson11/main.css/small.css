@@ -130,6 +130,7 @@ nav a:hover {
 
 }
 
+
 #weatherArticle {
     display: block;
     margin: 0 auto;
@@ -142,8 +143,7 @@ nav a:hover {
 }
 
 div.picture {
-
-    margin: 0 auto;
+     margin: 0 auto;
 }
 
 div.picture img {
@@ -264,7 +264,7 @@ main p {
     text-align: center;
 }
 
-/*this is for the Preston page */
+/*this is for the Preston, Fish Haven, Soda Springs page */
 
 main.preston {
     max-width: 100%;
@@ -283,6 +283,7 @@ main.preston {
     line-height: 0.5rem;
     background-color: #0D3B66;
     border: 2px solid  #FFFFFF;
+    border-radius: .5rem;
     position: absolute;
     top: 15px;
     left: 110px;
@@ -312,6 +313,19 @@ margin: 0 2%;
     margin: 8px;
     background-color:#0D3B66;
     color: #FFFFFF;
+}
+#event-info{
+    background-color: #B8D3E9;
+    margin: .5rem auto;
+    padding: .5rem;
+    width: 60%;
+    border-radius: .5rem;
+    border: .1rem solid #ccc;
+}
+#event-info h2 {
+    background-color:#0D3B66;
+    border-radius: .5rem;
+    color: white;
 }
 .section2{
     margin: 24px;
@@ -355,7 +369,7 @@ margin: 0 2%;
     
 }
 
-/* this is the article*/
+/* this is the article on the homepage*/
 .section3{
     background-color:  #B8D3E9;
     padding: 16px;

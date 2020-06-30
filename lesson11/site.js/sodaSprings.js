@@ -57,12 +57,12 @@ fetch(requestURL)
             const towns = jsonObject['towns'];
             const townName = towns.filter(x => x.name.includes("Soda Springs"));
             console.log(townName)
-            const upEvents = townName[0].events;
-            console.log(upEvents)
+            const events = townName[0].events;
 
-
-            
-
-        
-
-    })
+            events.forEach(event => {
+                let party = document.createElement('p');
+                party.innerText = event
+                let eventInfo = document.getElementById('event-info');
+                eventInfo.appendChild(party)
+            })
+        })
