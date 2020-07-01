@@ -278,18 +278,22 @@ main.preston {
     position: relative;
     
 }
+#boxtitle{
+    line-height: 1rem;
+}
 .weatherSum {
-    font-size: 14px;
-    line-height: 0.5rem;
+    font-size: 12px;
+    line-height: 0.3rem;
     background-color: #0D3B66;
     border: 2px solid  #FFFFFF;
     border-radius: .5rem;
     position: absolute;
-    top: 15px;
-    left: 110px;
+    top: -21px;
+    left: 78px;
     opacity: .85;
     box-shadow: 0 0 30px rgb(5, 5, 5);
     margin: 10px;
+    padding: 0px;
     
 }
 picture.photoA{
@@ -306,17 +310,17 @@ margin: 0 2%;
 }
 #boxtitle{
     background-color: #FFFFFF;
-    padding: 1rem 3rem 1rem;   
+    padding: .5rem 1.5rem .5rem;
 }
 .contentbox{
     padding: .4rem;
-    margin: 8px;
+    margin: 4px;
     background-color:#0D3B66;
     color: #FFFFFF;
 }
 #event-info{
     background-color: #B8D3E9;
-    margin: .5rem auto;
+    margin: 1rem auto;
     padding: .5rem;
     width: 60%;
     border-radius: .5rem;

@@ -16,15 +16,17 @@
   form legend {
     text-align: center;
   }
-/* this is the gallery grid code*/
-.grid{
-  grid-template-columns: repeat(2, 1fr);
+
+  /* this is the gallery grid code*/
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .articlelist{
+
+  .articlelist {
     max-width: 50%;
     padding-left: 20rem;
   }
-  
+
   /* json side by side format starts here*/
   .town {
     grid-template-columns: repeat(2, 1fr);
@@ -51,17 +53,29 @@
   }
 
   /* this is the preston page here*/
-
+  #boxtitle{
+    
+    padding: 1rem 3rem 1rem;
+}
   .weatherSum {
+    border-radius: .5rem;
+    position: absolute;
+    
+    
+    box-shadow: 0 0 30px rgb(5, 5, 5);
+    margin: 10px;
     font-size: 1rem;
-    line-height: 1rem;
-    top: 40px;
+    line-height: .5rem;
+    top: 8px;
     left: 50px;
     opacity: .85;
     margin: 10px;
 
   }
-
+  .contentbox{
+    padding: .6rem;
+    margin: 8px;
+  }
   main {
     text-align: left;
   }
@@ -94,4 +108,3 @@
     width: 40px;
   }
 }
-
