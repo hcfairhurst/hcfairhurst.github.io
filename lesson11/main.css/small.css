@@ -486,5 +486,10 @@ h3{
     
     footer a {
         color: #FFFFFF;
+        text-decoration: none;
     }
-    
+ .tribute{
+        
+        font-size: 12px;
+        font-style: italic; 
+    }
