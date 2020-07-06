@@ -1,0 +1,178 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+  
+}
+picture img {
+    max-width: 40%;
+    margin-left: 2rem;
+}
+header,
+footer {
+    background-color:  #5995ed;
+    color: #FFFFFF;
+    display: flex;
+    flex-flow: column;
+    
+    justify-content:space-around;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Galada', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    
+}
+
+main {
+    margin: 16px;
+    
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    
+    
+}
+.navigation li:first-child{
+    display: block;
+    
+}
+.navigation li{
+    display: none;
+}
+
+.responsive li{
+    display: block;
+}
+nav ul {
+    display: block;
+    justify-content: space-around;
+    flex: 1 1 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+nav a:hover {
+    background-color: #FFDF6E;
+    color: #000000;
+}
+
+    
+
+.sky {
+    background-color: #84DCC6;
+    padding: 1rem;
+    
+  
+}
+.yellow {
+    background-color: #FFDF6E;
+    padding: 1rem;
+   
+}
+.orange {
+    background-color: #FFA630;
+    padding: 1rem;
+   
+
+}
+/* specific to Target audience*/
+.youngman{
+    padding: 1rem;
+}
+.woman img {
+    padding: 1rem;
+    margin-top: 1rem auto;
+}
+/* specific to Typography page*/
+.logobox img {
+    max-width: 50%;
+    padding: 1rem;
+}
+#sample1 {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#sample2 {
+    font-size: 1rem;
+    
+}
+
+#sample3 {
+    background-color: #B8D3E9;
+    font-weight: 100;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+/*specific to Color Scheme Page*/
+#yellow {
+    background-color: #FFDF6E;
+}
+
+#ltblue {
+    background-color: #B8D3E9;
+}
+
+#darkblue {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+}
+
+
+    
+footer {
+    padding: 1rem;
+    
+}
+
+
+footer a {
+    color: #FFFFFF;
+}

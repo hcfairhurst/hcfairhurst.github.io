@@ -8,10 +8,11 @@
     <meta name="description" content="Weather home page for cit 230">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../lesson2/wk2-css.css/normalize.css">
-    <link rel="stylesheet" href="wk-3.css/small.css">
-    <link rel="stylesheet" href="wk-3.css/medium.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
-    <script src="wk-3.js"></script>
+    <link rel="stylesheet" href="main-css/small.css">
+    <link rel="stylesheet" href="main-css/medium.css">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -20,7 +21,8 @@
         <h1> Target Audience </h1>
         <div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="target-audience.html">Target Audience</a></li>
                     <li><a href="colorscheme.html">Color Scheme</a></li>
@@ -31,16 +33,14 @@
         </div>
     </header>
     <main>
-        <section class="demograph">
+        <section class="sky">
             <h4>The target demographic can be described as such:</h4>
             <ul>
                 <li>
-                    <h4>Who:</h4>General Public, Active Outdoor Enthusiast,
-                    Commuters, Construction crews and outdoor tourism related
-                    professionals.
+                    <h4>Who:</h4>Tourists,  Outdoor Sightseers, Cruise Ship Vacationers.
                 </li>
                 <li>
-                    <h4>Age:</h4>8-80
+                    <h4>Age:</h4>25-70
                 </li>
                 <li>
                     <h4>Technolongy</h4>General accessibility. Primarily phone,
@@ -50,32 +50,60 @@
                     <h4>Technology</h4>General accessibility. Primarily phone, tablet and desktop implementation.
                 </li>
                 <li>
-                    <h4>Income</h4>Large range in annual income. $30,000 and above.
+                    <h4>Income</h4>Large range in annual income. $18,000 and above.
                 </li>
                 <li>
-                    <h4>Motivation</h4>To prepare for various activities outside.
+                    <h4>Motivation</h4>To plan ahead for vacation activites.
                 </li>
             </ul>
         </section>
-        <section class="personas">
+        <section class="yellow">
             <h2>Personas</h2>
-            <img src="wk3-img/PersonaMan.png" alt="Man and demographic informationabout him">
-            <img src="wk3-img/PersonaWoman.png" alt="blonde 60 year old woman headshot">
+           <section class="personas">
+               <div class="youngman">
+                <img src="images/youngman.jpg" alt="young man with beard">
+                   <ul>
+                       <li>Occupation: College student and Tutor</li>
+                       <li>Demographic & Education: 26 years old. Finishing bachelors degree in Biology. Applying to Dental school. Single</li>
+                       <li>Motive for using site: Planning a guys trip to Mexico.</li>
+                       <li>Social: Recently discoved love of rafting. Has 3 roomates that have lived abroad and have convinced him to travel more.
+                           Athletic and organized.</li>
+                           <li>Technology: Frequent phone and laptop user. Always checking facebook. Uses tech constantly for school.</li>
+
+
+                   </ul>
+            </div>
+            <div class="woman">
+                <img src="images/woman.jpg" alt="short 40's woman">
+                <ul>
+                    <li>Occupation: Stay At Home Mother</li>
+                    <li>Demographic & Education: 40 years old. Associates in Humanities. Has 4 children. Married</li>
+                    <li>Motive for using site: Planning a family vacation.</li>
+                    <li>Social: Loves Photography and Reading. Attends book club. Takes care of many and various childrens needs</li>
+                        <li>Technology: Frequent phone user. Instagram pro. Uses tech consistantly to meet families needs.</li>
+
+
+                </ul>
+         </div>
+           </section>
+           
+            
         </section>
-        <section>
+        <section class="orange">
             <h4>Senarios</h4>
             <ul>
-                <li>1. I need to know the weather so that I know what to pack for my clients for a day on the river</li>
-                <li>2. I need a accurate weather forcast to make appointments for clients</li>
-                <li>3. How does knowing the weather conditions affect you day?</li>
-                <li>4. I want to go surfing and I need to know what the weather is.</li>
-                <li>5. Looking for information on upcoming emergency weather</li>
-                <li>6. How should I dress for a day working outside</li>
-                <li>7. My kids want to plan a trip to the beach, what should we prepare for</li>
-                <li>8. My wife and I are going on a trip and we need to know what weather to pack for</li>
+                <li>1. I need to know the availability for my group size?</li>
+                <li>2. What is the age requirement to rent?</li>
+                <li>3. Would it be better to reserve several scooters or a Jeep?</li>
+                <li>4. Where can the rental vehicles be driven?</li>
+                <li>5. Which vehile is best to drive to the beach?</li>
+                <li>6. Which rental location is close to my cruise port?</li>
+                <li>7. How much will is cost to rent a Jeep for a whole day?</li>
+                
             </ul>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
