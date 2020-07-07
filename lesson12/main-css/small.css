@@ -36,7 +36,8 @@ h4 {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 1.5rem;
-    
+    margin: 0px;
+    padding: 1rem;
 }
 
 main {
@@ -178,8 +179,18 @@ footer a {
     color: #FFFFFF;
 }
 /* start of site map and wireframes*/
-.smallwireframe{
+.sitemap{
     background-color: #84dcc6;
+    margin: 0px auto;
+}
+.sitemap img {
+    width: 90%;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.smallwireframe {
+    background-color: #FFDF6E;
+    margin: 0px;
 }
 .smallwireframe img {
     width: 30%;
@@ -187,7 +198,8 @@ footer a {
     border-radius: 2rem;
 }
 .medwireframe {
-    background-color: #FFDF6E;
+    background-color: #FFA630; 
+    margin: 0px;
 }
 .medwireframe img{
     width: 50%;
@@ -195,7 +207,8 @@ footer a {
     border-radius: 2rem;
 }
 .largewireframe{
-    background-color: #FFA630; 
+    background-color: #84dcc6; 
+    margin: 0px;
 }
 .largewireframe img {
     width: 60%;
