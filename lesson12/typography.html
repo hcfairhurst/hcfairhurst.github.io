@@ -20,10 +20,10 @@
         <h1>Typography</h1>
         <div>
             <nav>
-                <ul>
-
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="target-audience.html">Target Audience</a></li>
+                    <li><a href="target.html">Target Audience</a></li>
                     <li><a href="colorscheme.html">Color Scheme</a></li>
                     <li><a href="typography.html">Typography</a></li>
                     
@@ -32,10 +32,12 @@
         </div>
     </header>
     <main>
+        <div class="sky">
         <h4>Fonts</h4>
         <p>We have chosen fonts Open Sans and Lato. Each of these fonts are Sans Serif.
             They create clean and highly readable text. </p>
-        <Title>Grid of Objects and Items</title>
+        </div>
+        <div class="yellow">
         <table>
             <tr>
                 <th>Object/Item</th>
@@ -45,10 +47,10 @@
                 <th>Color</th>
             </tr>
             <tr>
-                <td>H2-H5</td>
-                <td>Open Sans</td>
-                <td>Normal</td>
-                <td>Normal</td>
+                <td>H1</td>
+                <td>Galada</td>
+                <td>Bold</td>
+                <td>Cursive</td>
                 <td id="sample1">Sample</td>
             </tr>
             <tr>
@@ -66,11 +68,12 @@
                 <td id="sample3">Sample</td>
             </tr>
         </table>
+        </div>
 </main>
 <footer>
-
-    &copy; 2020 | Heidi Fairhurst | Montana | <a class="links" href="https://hcfairhurst.github.io/">Assignment
-        Portal</a>
+    &copy; 2020 | Heidi Fairhurst | Montana  <span id="todaysDate"></span>
+</footer>
+<script src="/lesson12/main.js"></script>
 
 </footer>
 </body>

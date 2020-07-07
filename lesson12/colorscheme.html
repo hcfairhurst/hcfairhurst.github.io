@@ -20,9 +20,10 @@
         <h1>Color Scheme</h1>
         <div>
             <nav>
-                <ul>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="target-audience.html">Target Audience</a></li>
+                    <li><a href="target.html">Target Audience</a></li>
                     <li><a href="colorscheme.html">Color Scheme</a></li>
                     <li><a href="typography.html">Typography</a></li>
 
@@ -30,30 +31,34 @@
             </nav>
         </div>
     </header>
-    <main id="row">
-        <div class="logobox">
+    <main>
+        <div id="logobox" class="sky">
             <h4>Logo</h4>
             <img src="/lesson12/images/motorcycle.png" alt="color block green scooter">
+            <p>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         </div>
-        <div>
+        <div class="yellow">
             <h4>Primary Colors</h4>
             <table id="palette">
                 <tr>
                     <th>Primary</th>
                     <th>Secondary</th>
                     <th>Accent 1</th>
+                    <th>Accent 2</th>
                     
                 </tr>
                 <tr>
-                    <td id="Middle Blue Green">#84DCC6</td>
-                    <td id="Yellow Orange">#FFA630</td>
-                    <td id="Mustard">#FFDF6E</td>
+                    <td class="blue">#5995ed</td>
+                    <td class="turquiose">#84dcc6</td>
+                    <td class="orange">#FFA630</td>
+                    <td class="yellow">#ffdd4a</td>
                     
                 </tr>
                 <tr>
-                    <td id="Middle Blue Green">header,footer,<br> bolded headers</td>
-                    <td id="Yellow Orange">Nav bar, </td>
-                    <td id="Mustard">hover</td>
+                    <td class="blue">header,footer,<br> bolded headers</td>
+                    <td class="turquiose">sections,<br>  background </td>
+                    <td class="orange">hover, div's</td>
+                    <td class="yellow">section, borders</td>
                     
                 </tr>
             </table>
@@ -61,9 +66,9 @@
         
     </main>
     <footer>
-        &copy; 2020 | Heidi Fairhurst | Montana | <a class="links" href="https://hcfairhurst.github.io/">Assignment
-            Portal</a>
+        &copy; 2020 | Heidi Fairhurst | Montana  <span id="todaysDate"></span>
     </footer>
+    <script src="/lesson12/main.js"></script>
 </body>
 
 </html>

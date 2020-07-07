@@ -82,7 +82,8 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #FFDF6E;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFA630;
     color: #000000;
 }
 
@@ -114,25 +115,24 @@ nav a:hover {
     margin-top: 1rem auto;
 }
 /* specific to Typography page*/
-.logobox img {
-    max-width: 50%;
+#logobox img {
+    max-width: 20%;
     padding: 1rem;
 }
 #sample1 {
-    background-color: #0D3B66;
+    background-color: #5995ed;
     color: #FFFFFF;
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Galada', cursive;
     font-size: 2rem;
 }
 
 #sample2 {
     font-size: 1rem;
-    
+    background-color:#84DCC6 ;
 }
 
 #sample3 {
-    background-color: #B8D3E9;
+    background-color: #FFA630;
     font-weight: 100;
 }
 
@@ -149,19 +149,20 @@ td {
 
 th {
     text-align: center;
+    background-color: white;
 }
 
 /*specific to Color Scheme Page*/
 #yellow {
-    background-color: #FFDF6E;
+    background-color: #5995ed;
 }
 
-#ltblue {
-    background-color: #B8D3E9;
+.turquiose {
+    background-color: #84dcc6;
 }
 
-#darkblue {
-    background-color: #0D3B66;
+.blue {
+    background-color: #5995ed;
     color: #FFFFFF;
 }
 
