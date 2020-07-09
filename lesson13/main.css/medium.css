@@ -1,0 +1,38 @@
+@media only screen and (min-width: 35em) {
+    .top{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+
+    
+    }
+    .navigation {
+        display: flex;
+      }
+    
+      .navigation li:first-child {
+        display: none;
+      }
+    
+      .navigation li {
+        display: block;
+        flex: 1 1 100%;
+      }
+    
+      /* this is the form code*/
+      form legend {
+        text-align: center;
+      }
+    .top img {
+    max-width: 100px;
+    padding-right: 16px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.top h1 {
+    font-size: 2rem;
+}
+}

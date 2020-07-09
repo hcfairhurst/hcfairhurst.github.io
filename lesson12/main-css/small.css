@@ -2,11 +2,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
   
 }
 picture img {
     max-width: 40%;
     margin-left: 2rem;
+    margin-top: 1rem;
 }
 header,
 footer {
@@ -24,6 +27,7 @@ h1 {
     font-weight: 300;
     font-size: 3rem;
     margin-left: 1rem;
+    margin-top: 0px;
 }
 
 h3 {
@@ -113,7 +117,7 @@ nav a:hover {
 }
 .woman img {
     padding: 1rem;
-    margin-top: 1rem auto;
+    margin-top: 1rem;
 }
 /* specific to Typography page*/
 #logobox img {

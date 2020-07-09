@@ -7,87 +7,59 @@
     <title>Home Page</title>
     <meta name="description" content="Weather website home page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="siteimages/faviconsun(1).ico">
+    <link rel="shortcut icon" href="images/favicon(1).ico">
     <link rel="stylesheet" href="main.css/normalize.css">
     <link rel="stylesheet" href="main.css/small.css">
-    <link rel="stylesheet" href="main.css/med.css">
-    <link rel="stylesheet" href="main.css/homelarge.css">
+    <link rel="stylesheet" href="main.css/medium.css">
+    <link rel="stylesheet" href="main.css/large.css">
+     <link href="https://fonts.googleapis.com/css2?family=Galada&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 
 </head>
 
 <body>
-    <div id="pancake">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion. </div>
     <header>
-        
-            <picture class="logo"><img src="images/speedy-gonzales-logo-black-and-white.png" alt="speedy mouse"> </picture>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+    
+            </ul>
+        </nav>
+        <div class="top">
+            <img src="images/motorcycle.png" alt="green scooter"> 
         
         <section class="headings">
-            <h1> Outside Weather </h1>
-            <div>Accurate, to help YOU plan ahead</div>
+            <h1> Scoots.com </h1>
+            <div>Get rolling on your next Adventure</div>
+        </div>
+        
         </section>
     </header>
-    <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="fishaven.html">Fish Haven</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodasprings.html">Soda Springs</a></li>
-            <li><a href="stormcenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-
-        </ul>
-    </nav>
+   
 
 
     <main>
-        <div class="offer">
-            <h2>We offer up-to-date local weather for:<br></h2>
-            <h4>Preston, Fish Haven, and Soda Springs</h4>
-        </div>
-        <div>
-            <h2>Preston is a vacationer’s dream. There’s always something to do.</h2>
-            <img id="weatherArticle" src="siteimages/rainbow.jpg" alt="sushine and rain">
-            <p>Winter brings the best snow and the most beautiful winter scenery. Snowmobiling and cross country skiing
-                is great. You can travel down Mink Creek, Cub River, and even Logan Canyon and see the most beautiful
-                winter wonderland ever, ending up at Bloomington or Bear Lake.<br>
-
-                Spring brings golfing at our 18-hole course, floating and kayaking down the beautiful Bear River, as
-                well as fishing, boating, water-skiing or just camping at our 10 reservoirs. There are three swimming
-                resorts close by and also a new swimming pool in town.
-
-                <ul class="articlelist">
-                    <li>Oneida Narrows Reservoir – 15 miles NE of Preston on SH 36 – wetland & juniper;<br>
-                        Trumpeter Swan in winter, Wild Turkey, Eagle, Osprey</li>
-                    <li> Glendale Reservoir – 3 miles NE of Preston on Hwy 36 – Camping, Restrooms</li>
-                    <li> Downata – 3 1/2 miles SE of Downey on Hwy 91 – Pelicans, ponds & wetland </li>
-                    <li> Swan Lake Marsh – 17 miles NW of Preston on SH 91 – wetlands </li>
-                    <li> Oxford Slough Area – 1 mile N of Oxford on County Rd D-1 – wetland </li>
-                    <li> Twin Lakes – 4 miles W SH 91 Twin Lakes Rd – wetlands; Loons in spring </li>
-                    <li> Weston Reservoir – 13 miles E of I-15 Weston Exit SH 36 – farmland</li>
-                </ul>
-                <p class="readLink"><a
-                        href="https://www.prestonidaho.net/discover-the-natural-beauty-resorces-of-citys-outdoors/">finish
-                        story here</a></p>
-            </p>
-        </div>
-        <div id="towns"></div>
+        
 
 
     </main>
     <footer>
-        <p><a href="https://wireframe.cc/jm8Ltr">Lg wireframe</a> || <a href="https://wireframe.cc/olTx5P">Med
-                wireframe</a> || <a href="https://wireframe.cc/7fBO7a">Small wireframe</a></p>
+       
         <p> &copy; 2020 | Heidi Fairhurst | Montana |<a class="links" href="https://hcfairhurst.github.io/"> Assignment
                 Portal</a>|
             <span id="todaysDate"></span>
         </p>
 
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="site.js/main.js"></script>
-    <script src="site.js/towninfo.js"></script>
+   
+    <script src="main.js/nav.js"></script>
+    
 
 
 </body>
