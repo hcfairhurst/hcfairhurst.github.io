@@ -35,4 +35,31 @@
 .top h1 {
     font-size: 2rem;
 }
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  max-width: 100%;
+  
+}
+
+.rentalSum {
+  max-width: 35%;
+}
+.section2 {
+  max-width: 50%;
+
+}
+
+.section3 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* this is the gallery grid code*/
+.grid {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
