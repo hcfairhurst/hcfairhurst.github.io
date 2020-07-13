@@ -62,4 +62,7 @@
 .grid {
   grid-template-columns: repeat(2, 1fr);
 }
+/*this is for the rental table*/
+table {
+  max-width: 70%;
 }
