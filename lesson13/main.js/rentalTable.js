@@ -1,10 +1,12 @@
-const requestURL = "https://byui-cit230.github.io/lesson13/data/rentalinfo.json";
+const requestURL = "https://hcfairhurst.github.io/lesson13/data/rentalinfo.json";
 fetch(requestURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-            const towns = jsonObject['towns'];
+            const rentals = jsonObject['rentals'];
+            console.log(rentals)
+            /*
             const townName = towns.filter(x => x.name.includes("Soda Springs"));
             console.log(townName)
             const events = townName[0].events;
@@ -14,5 +16,5 @@ fetch(requestURL)
                 party.innerText = event
                 let eventInfo = document.getElementById('event-info');
                 eventInfo.appendChild(party)
-            })
+            })*/
         })
