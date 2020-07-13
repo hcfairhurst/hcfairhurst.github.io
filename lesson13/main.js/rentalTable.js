@@ -6,15 +6,12 @@ fetch(requestURL)
     .then(function (jsonObject) {
             const rentals = jsonObject['rentals'];
             console.log(rentals)
-            /*
-            const townName = towns.filter(x => x.name.includes("Soda Springs"));
-            console.log(townName)
-            const events = townName[0].events;
+            const atv = rentals[0].name;
 
-            events.forEach(event => {
-                let party = document.createElement('p');
-                party.innerText = event
-                let eventInfo = document.getElementById('event-info');
-                eventInfo.appendChild(party)
-            })*/
+            atv.forEach(vehicle => {
+                let info = document.createElement('td');
+                info.innerText = vehicle
+                let vehicleInfo = document.getElementById('Metro');
+                vehicleInfo.appendChild(info)
+            })
         })

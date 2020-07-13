@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Home Page</title>
+    <meta name="description" content="Weather website home page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon(1).ico">
+    <link rel="stylesheet" href="main.css/normalize.css">
+    <link rel="stylesheet" href="main.css/small.css">
+    <link rel="stylesheet" href="main.css/medium.css">
+    <link rel="stylesheet" href="main.css/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li class="active"><a href="reservation.html">Reservation</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+        </nav>
+        <div class="top">
+            <img src="images/motorcycle.png" alt="green scooter">
+
+            <section class="headings">
+                <h1> Scoots.com </h1>
+                <div>Get rolling on your next Adventure</div>
+        </div>
+
+        </section>
+    </header>
+
+
+
+    <main>
+        <h2>Rental Agreement and Reservation form</h2>
+        <div class="agreement">
+            <p>Read Through Our Requirments</p>
+            <li>
+                <ul>A $50 security deposit is required to confirm reservations.</ul>
+                <ul>A valid drivers license is required in hand at time of rental.</ul>
+                <ul>No one under 12 years of age are allowed to ride on the scooters.</ul>
+                <ul>Fuel charge not included.</ul>
+                <ul>Unlimited mileage.</ul>
+                <ul>Liability insurance is free of charge.</ul>
+                <ul>Reservations rate requires 24 hour prior notification.</ul>
+                <ul>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</ul>
+                <ul>Payment via Google Pay, cash, credit card, debit card, or PayPal.</ul>
+                <ul>Rentals may be returned to either location.</ul>
+
+            </li>
+        </div>
+        <form method="get" action="confirmation.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top"> Full name* <input type="text" name="fullname" required pattern="[A-Za-z].{4,}"
+                        placeholder="First Last"></label>
+                <label class="top"> Phone <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                        required></label>
+                <label class="top"> Country <input type="text" name="country" required></label>
+                <label class="top">Fom the U.S.?</label>
+
+                <select id="state" name="state">
+                    <option value="---">select your state</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="District of Columbia">District of Columbia</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Guam">Guam</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Puerto Rico">Puerto Rico</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Virgin Islands">Virgin Islands</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Choose Your Vehicle</legend>
+                <label class="top">Jeep:</label>
+                <input type="text" name="Vehicle" list="Jeep" placeholder="  click to select">
+                <datalist id="Jeep">
+                    <option value="Jeep Wrangler - 2 door">
+                    <option value="Jeep Wrangler - 4 door with a/c">
+
+                </datalist>
+                <label class="top">Scooters & ATV:</label>
+                <input type="text" name="Scooters" list="Scooters" placeholder="  click to select">
+                <datalist id="Scooters">
+                    <option value="Honda Metro Scooter">
+                    <option value="Honda Dio Scooter">
+                    <option value="Honda PCX150 Scooter">
+                    <option value="Honda Pioneer ATV">
+
+                </datalist>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Rental Information</legend>
+                <label class="top"> Rental Date <input type="date" name="date"></label>
+                <!--Storm Type Drop down datalist -->
+                <label class="top">Pick Up Location:</label>
+                <input type="text" name="location" list="locationlist" placeholder="  click to select">
+                <datalist id="locationlist">
+                    <option value="Terminal Puerta Maya">
+                    <option value="Cozumel Ferry dock">
+
+                </datalist>
+                <label class="top">Pick Up Time:</label>
+                <input type="time" id="appt" name="appt">
+  
+
+                <label class="top">Rental Length:</label>
+                <input type="text" name="length" list="length" placeholder="  click to select">
+                <datalist id="length">
+                    <option value="Half Day">
+                    <option value="1 Day">
+                    <option value="2 Day">
+                    <option value="3 Day">
+                    <option value="4 Day">
+                    <option value="5 Day">
+                    <option value="6 Day">
+                    <option value="7 Day">
+                </datalist>
+
+
+                <label class="top">Drop Off Location:</label>
+                <input type="text" name="location" list="locationlist" placeholder="  click to select">
+                <datalist id="locationlist">
+                    <option value="Terminal Puerta Maya">
+                    <option value="Cozumel Ferry dock">
+
+                        
+                </datalist>
+                <label class="top">Drop Off Time:</label>
+                <input type="time" id="appt" name="appt">
+
+                <!--Select Drop down -->
+                <label class="top">*Optional</label>
+                <select name="ship">
+                    <option>Select Cruise Ship...</option>
+                    <option value="Princess">Princess</option>
+                    <option value="Carnival">Carnival</option>
+                    <option value="Royal Carribean">Royal Carribean</option>
+                    <option value="na">Not Listed</option>
+                </select>
+
+
+
+
+
+
+                <!-- Radio button problem can't figure out why they won't format -->
+                <div>Drop off Request</div>
+                <label class="sbs"><input type="radio" name="audience" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="audience" value="no"> No</label>
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Additional Info/Comments</legend>
+                <div>If you have a Drop Off Request or Special Accommodations<br>
+                    include the details below.</div>
+                <label class="top"></label>
+                <textarea name="comments" rows="8" cols="40">
+
+                                                                                                                </textarea>
+
+
+            </fieldset>
+
+            <input type="submit" value=" Reserve Now" class="submitBtn">
+
+        </form>
+
+
+    </main>
+    <footer>
+
+        <p> &copy; 2020 | Heidi Fairhurst | Montana 
+            <span id="todaysDate"></span>
+        </p>
+
+    </footer>
+
+    <script src="main.js/nav.js"></script>
+    <script src="main.js/weather.js"></script>
+
+
+
+</body>
+
+
+</html>
