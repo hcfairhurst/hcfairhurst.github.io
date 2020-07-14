@@ -2,51 +2,51 @@
     "rentals": [
         {
             "name": "Honda Metro Scooter",
-            "max. persons": "1",
-            "reservation halfday": "$20",
-            "reservation fullday": "$30",
-            "walk in halfday": "$25",
-            "walk in fullday": "$35"
+            "maxPersons": "1",
+            "reservationhalfday": "$20",
+            "reservationfullday": "$30",
+            "walkinhalfday": "$25",
+            "walkinfullday": "$35"
         },
         {
             "name": "Honda Dio Scooter",
-            "max. persons": "2",
-            "reservation halfday": "$30",
-            "reservation fullday": "$40",
-            "walk in halfday": "$35",
-            "walk in fullday": "$45"
+            "maxPersons": "2",
+            "reservationhalfday": "$30",
+            "reservationfullday": "$40",
+            "walkinhalfday": "$35",
+            "walkinfullday": "$45"
         },
         {
             "name": "Honda PCX150 Scooter",
-            "max. persons": "2",
-            "reservation halfday": "$40",
-            "reservation fullday": "$50",
-            "walk in halfday": "$45",
-            "walk in fullday": "$55"
+            "maxpersons": "2",
+            "reservationhalfday": "$40",
+            "reservationfullday": "$50",
+            "walkinhalfday": "$45",
+            "walkinfullday": "$55"
         },
         { 
             "name": "Honda Pioneer ATV",
-            "max. persons": "4",
-            "reservation halfday": "$50",
-            "reservation fullday": "$70",
-            "walk in halfday": "$60",
-            "walk in fullday": "$80"
+            "maxPersons": "4",
+            "reservationhalfday": "$50",
+            "reservationfullday": "$70",
+            "walkinhalfday": "$60",
+            "walkinfullday": "$80"
         },
         {
             "name": "Jeep Wrangler 4 door with a/c",
-            "max. persons": "5",
-            "reservation halfday": "$70",
-            "reservation fullday": "$100",
-            "walk in halfday": "$85",
-            "walk in fullday": "$125"  
+            "maxPersons": "5",
+            "reservationhalfday": "$70",
+            "reservationfullday": "$100",
+            "walkinhalfday": "$85",
+            "walkinfullday": "$125"  
         },
         {
             "name": "Jeep Wrangler 2 door",
-            "max. persons": "4",
-            "reservation halfday": "$60",
-            "reservation fullday": "$80",
-            "walk in halfday": "$70",
-            "walk in fullday": "$90"  
+            "maxPersons": "4",
+            "reservationhalfday": "$60",
+            "reservationfullday": "$80",
+            "walkinhalfday": "$70",
+            "walkinfullday": "$90"  
         }
 
     ]
