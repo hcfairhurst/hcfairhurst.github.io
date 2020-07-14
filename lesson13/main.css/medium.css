@@ -1,68 +1,74 @@
 @media only screen and (min-width: 35em) {
-    .top{
-        margin-top: 3rem;
-        display: flex;
-        flex-direction: row;
 
-    
-    }
-    .navigation {
-        display: flex;
-      }
-    
-      .navigation li:first-child {
-        display: none;
-      }
-    
-      .navigation li {
-        display: block;
-        flex: 1 1 100%;
-      }
-    
-      /* this is the form code*/
-      form legend {
-        text-align: center;
-      }
-    .top img {
-    max-width: 100px;
-    padding-right: 16px;
-}
+  .navigation {
+    display: flex;
+  }
 
-.headings {
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .headings {
     display: flex;
     flex-direction: column;
-}
-.top h1 {
+  }
+
+  .icon {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon h1 {
     font-size: 2rem;
-}
-.section1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 1rem auto;
-  max-width: 100%;
-  
-}
+  }
 
-.rentalSum {
-  max-width: 35%;
-}
-.section2 {
-  max-width: 55%;
+  .icon img {
+    max-width: 100px;
+    padding-right: 16px;
+  }
 
-}
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+  .rentalSum {
+    max-width: 35%;
+  }
 
-.section3 {
-  display: flex;
-  flex-direction: row;
-  max-width: 100%;
-  margin: 0 auto;
-}
-/* this is the gallery grid code*/
-.grid {
-  grid-template-columns: repeat(2, 1fr);
-}
-/*this is for the rental table*/
-table {
-  max-width: 70%;
+  .section2 {
+    max-width: 55%;
+
+  }
+
+  .section3 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* this is the gallery grid code*/
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /*this is for the rental table*/
+  table {
+    max-width: 70%;
+  }
+
+  /*form starts here8?
+/* this is the form code*/
+  form legend {
+    text-align: center;
+  }
 }

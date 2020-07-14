@@ -31,7 +31,7 @@
 
             </ul>
         </nav>
-        <div class="top">
+        <div class="icon">
             <img src="images/motorcycle.png" alt="green scooter">
 
             <section class="headings">
@@ -45,9 +45,10 @@
 
 
     <main>
-        <h2>Rental Agreement and Reservation form</h2>
+        
         <div class="agreement">
-            <p>Read Through Our Requirments</p>
+            <h2>Rental Agreement and Reservation form</h2>
+            <h3>&#9889; Please Read Through Our Requirments</h3>
             <li>
                 <ul>A $50 security deposit is required to confirm reservations.</ul>
                 <ul>A valid drivers license is required in hand at time of rental.</ul>
@@ -196,13 +197,13 @@
 
                 <!--Select Drop down -->
                 <label class="top">*Optional</label>
-                <select name="ship">
-                    <option>Select Cruise Ship...</option>
+                <input type="text" name="ship" list="ship" placeholder="  Select Cruise Ship...">
+                <datalist id="ship">   
                     <option value="Princess">Princess</option>
                     <option value="Carnival">Carnival</option>
                     <option value="Royal Carribean">Royal Carribean</option>
-                    <option value="na">Not Listed</option>
-                </select>
+                    <option value="Not Listed">Not Listed</option>
+                </datalist>
 
 
 
@@ -243,7 +244,7 @@
     </footer>
 
     <script src="main.js/nav.js"></script>
-    <script src="main.js/weather.js"></script>
+
 
 
 
