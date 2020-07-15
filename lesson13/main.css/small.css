@@ -334,9 +334,12 @@ iframe {
     
     margin: 1rem;
 }
-
-.social-media img {
-
+#social-media{
+    display: flex;
+    justify-content: space-between;
+}
+#social-media img {
+    display: flex;
     justify-content: space-between;
     width: 40px;
     padding: 1rem;
