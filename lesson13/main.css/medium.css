@@ -58,7 +58,7 @@
 
   /* this is the gallery grid code*/
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   /*this is for the rental table*/
