@@ -12,7 +12,7 @@ fetch(requestURL)
             
             let row = document.createElement('tr');
               let name = document.createElement('td');
-              let column = document.createElement('td');
+             
               let maxpep = document.createElement('td');
               let reserveHalf = document.createElement('td');
               let reserveFull = document.createElement('td');
@@ -29,10 +29,11 @@ fetch(requestURL)
                 row.appendChild(name);
                 row.appendChild(maxpep);
                 row.appendChild(reserveHalf);
+                row.appendChild(reserveFull);
                 row.appendChild(walkHalf);
                 row.appendChild(walkFull);
-
-              document.getElementById('row').appendChild(row);
+                
+              document.getElementById('flat-table').appendChild(row);
               
               
             }
