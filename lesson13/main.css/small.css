@@ -69,7 +69,7 @@ ul, li {
 
 }
 nav {
-    margin: 1rem auto;
+    margin: .25rem auto;
     background-color: #5995ed;
     font-family: 'Roboto', sans-serif;
 }
@@ -116,7 +116,7 @@ nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*nave stops here*/
+/*nav stops here*/
 /* index.html page specifics start here*/
 .section1 {
     display: flex;
@@ -452,7 +452,8 @@ textarea {
      background-color:#FFDF6E;
  }
 .history p, .history h3 {
-    padding: 1rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
 }
  .grid section {
     margin: 0.5rem;
@@ -469,6 +470,24 @@ textarea {
 .grid section p {
     margin: 2rem .5rem .5rem 1rem;
     line-height: 1.2em;
+}
+.ruin-img {
+   display: flex;
+    width: 50%;
+}
+.readLink {
+    text-align: center;
+    margin: .75rem auto;
+    border-bottom: 1px solid black;
+    color: #000;
+    
+    
+    max-width: 8rem;
+   
+}
+.readLink a {
+    text-decoration: none;
+    color: black;
 }
 /*this is footer*/
 footer {
