@@ -58,7 +58,7 @@
 
   /* this is the gallery grid code*/
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 
   /*this is for the rental table*/
@@ -70,5 +70,20 @@
 /* this is the form code*/
   form legend {
     text-align: center;
+  }
+  /*contact*/
+  .address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    
+    }
+    .address img {
+      width: 90%;
+      padding: 1rem;
+  } 
+  iframe {
+    max-width: 600px;
   }
 }
