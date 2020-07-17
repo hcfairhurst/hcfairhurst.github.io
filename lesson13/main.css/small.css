@@ -342,9 +342,6 @@ tfoot tr td {
 
 }
 
-
-
-
 #social-media {
     display: flex;
     justify-content: space-between;
@@ -355,7 +352,8 @@ tfoot tr td {
     justify-content: space-between;
     width: 40px;
     padding: 1rem;
-    margin-left: 1rem;
+    margin-left: .75rem;
+    margin-top: 1rem;
 
 
 }
