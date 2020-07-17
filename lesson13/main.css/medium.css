@@ -62,10 +62,10 @@
   }
 
   /*this is for the rental table*/
-  table {
-    max-width: 70%;
+  
+  #flat-table {
+    width: 80%;
   }
-
   /*form starts here8?
 /* this is the form code*/
   form legend {

@@ -1,15 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
     margin: 0 auto;
-    background: white;
     width: 100%;
+    color: rgb(78, 76, 76);
+   
 }
 
 
 header {
 
-    background-color: #5995ed;
+    background-color:#5995ed;
     color: #FFFFFF;
     padding: 10px;
     margin-top: 1rem;
@@ -25,7 +25,7 @@ header {
 .icon img {
     width: 20%;
     padding-right: 16px;
-
+    margin: .5rem;
 }
 
 .headings {
@@ -48,6 +48,7 @@ h2 {
     font-weight: 500;
     margin: .5rem;
     padding: 1rem;
+   
 }
 
 h4 {
@@ -56,17 +57,20 @@ h4 {
     font-weight: 200;
     font-style: italic;
     margin: auto;
+    
 }
 
 h3 {
     margin: 1rem;
     padding-left: 1.5rem;
+    
+    font-style: italic;
 }
 
 ul,
 li {
     list-style-type: none;
-
+   
 }
 
 nav {
@@ -154,7 +158,7 @@ nav ul li a:hover {
     font-size: 2rem;
     margin: 0px;
 
-    color: white;
+    color: rgb(78, 76, 76);
 }
 
 .section2 {
@@ -162,7 +166,7 @@ nav ul li a:hover {
     margin: 1rem;
 
     padding: 1rem;
-    color: rgb(54, 54, 54);
+    color: rgb(78, 76, 76);
 }
 
 .section2 h3 {
@@ -208,9 +212,7 @@ nav ul li a:hover {
     width: 40px;
 }
 
-#yellow {
-    background-color: #FFDF6E;
-}
+
 
 /*this is rentals pic grid*/
 img[data-src] {
@@ -226,8 +228,9 @@ img {
 
 }
 
-main.gallery {
+.gallery {
     margin: 0px auto;
+    background-color:#84DCC6 ;
 
 }
 
@@ -242,7 +245,7 @@ figcaption {
     text-align: center;
     padding: .5rem;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: rgb(78, 76, 76);
 }
 
 .grid {
@@ -252,20 +255,21 @@ figcaption {
     justify-content: center;
     max-width: 100%;
     margin: 1rem auto;
-    background-color: #84DCC6;
+   
     padding: 1rem;
 }
 
 /* rental table starts here */
 .rental-table {
-    background-color: #FFDF6E;
-    padding: 2rem 2rem 1rem 1rem;
-    width: 100%;
+    max-width: 100%;
+ 
+    padding: 1rem;
 
 }
 
 #flat-table {
-    width: 100%;
+    width: 20%;
+    margin: 0 auto
 }
 
 table,
@@ -276,10 +280,10 @@ td {
 }
 
 table {
-    font-size: 100%;
+    
     overflow: auto;
-    width: 80%;
-    box-shadow: 10px 10px 10px #c4ad5d;
+    width: 60%;
+    box-shadow: 10px 10px 10px #cacac7;
     text-align: center;
     margin: 0 auto;
 
@@ -291,7 +295,7 @@ b:only-child {
 
 tr:nth-child(odd) {
     background-color: rgb(233, 233, 233);
-    color: #000000
+    
 }
 
 tr:nth-child(even) {
@@ -300,23 +304,23 @@ tr:nth-child(even) {
 
 th,
 tfoot tr td {
-    background-color: #c6daf8;
-    color: rgb(78, 76, 76);
-    padding: 10px 10px;
+    background-color: #FFDF6E;
+   
+    padding: .5rem .5rem;
 
 }
 
 td {
-    padding: 8px 8px;
+    padding: .5rem .5rem;
 }
 
 th {
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 tfoot tr td {
-    font-size: .8rem;
+    font-size: .5rem;
 }
 
 #active {
@@ -330,7 +334,7 @@ tfoot tr td {
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
-    background-color: #FFDF6E;
+   
     padding: 2rem 2rem 1rem 1rem;
 
 }
@@ -363,6 +367,13 @@ tfoot tr td {
     background-color: #84DCC6;
     padding-bottom: 1rem;
 }
+.agreement ul {
+        border-left: 5px solid red;
+        line-height: 1.5rem;
+        list-style-type: none;
+        padding: 10px 20px;
+        margin: 1rem;
+      }
 
 form fieldset {
     margin: 0 auto;
@@ -374,7 +385,7 @@ form fieldset {
 }
 
 form legend {
-    color: #000;
+    color: rgb(78, 76, 76);
     padding: 0 .8rem;
     font-size: 1.5rem;
     border: 5px solid #FFFFFF;
@@ -432,14 +443,14 @@ form label.sbs {
 }
 
 input.submitBtn {
-    margin: 1rem 0 1rem 1rem;
+    margin: .75rem 0 .75rem .75rem;
     background-color: #FFA630;
     color: #000;
 
     border: 2px solid #cccccc;
-    padding: .75rem 1.5rem;
+    padding: .5rem .5rem;
     width: 100%;
-    max-width: 20rem;
+    max-width: 10rem;
     box-shadow: 1px 1px 1px;
 }
 
@@ -524,21 +535,27 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #84DCC6;
+   
     width: 100%;
-    margin-top: 1rem;
+    margin: 1rem 0 1rem;
 }
 
 .address section {
     margin: .5rem;
+   line-height: 2rem;
+    text-align: center;
+    
 }
-
-.address img {
-    width: 90%;
-    padding: 1rem;
+.address ul {
+    padding: 0px;
+}
+.address li {
+    
+    width: 100%;
+   margin: 0px 8px 0px 8px;
 }
 .address p {
-    padding: .5rem;
+    padding: 0 1rem 0 1rem;
   } 
   iframe {
 max-width: 350px;
@@ -546,7 +563,7 @@ max-width: 350px;
 }
 .map {
     text-align: center;
-    background-color:  #FFDF6E;
+    background-color:   #84DCC6;
 
 }
 .locale h2 {

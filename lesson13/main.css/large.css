@@ -1,11 +1,12 @@
 @media only screen and (min-width: 65rem){
    body{
-       width: 1000px;
+       width: 1200px;
    }
     h1 {
     
     font-size: 3rem;
     }
+    
     nav ul li a{padding: .6rem 1rem;} 
     iframe {
         max-width: 950px;
