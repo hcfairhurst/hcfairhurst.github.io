@@ -3,8 +3,8 @@ body {
     margin: 0 auto;
     width: 100%;
     color: rgb(53, 52, 52);
-   font-size: 1rem;
-   font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 
@@ -33,15 +33,17 @@ header {
 
 .banner {
     position: relative;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
-.title  {
+
+.title {
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
 h1 {
     font-family: 'Galada', cursive;
     font-weight: 300;
@@ -56,13 +58,13 @@ h2 {
     font-weight: 700;
     margin: .5rem;
     padding: 1rem;
-   
+
 }
 
 h3 {
     margin: 1rem;
     padding-left: 1.5rem;
-    
+
     font-style: italic;
 }
 
@@ -73,25 +75,28 @@ h4 {
     font-style: italic;
     margin: auto;
 }
+
 h5 {
     font-size: 2.5rem;
     font-family: 'Galada', cursive;
     font-weight: 200;
 }
+
 h6 {
     font-size: 1.5rem;
     font-family: 'Galada', cursive;
     font-weight: 200;
 }
+
 ul,
 li {
     list-style-type: none;
-   
+
 }
 
 nav {
     margin: .25rem auto;
-    background-color:rgb(53, 52, 52);
+    background-color: rgb(53, 52, 52);
     font-family: 'Roboto', sans-serif;
 
 }
@@ -128,16 +133,16 @@ nav ul li a {
     padding: .8rem 2%;
     text-decoration: none;
     color: white;
-   
 
-}
 
-.nav ul li a.active {
-    background-color: #FFA630;
 }
 
 nav ul li a:hover {
     background-color: rgba(238, 201, 122, 0.493);
+}
+
+.active {
+    background-color: #FFA630;
 }
 
 /*nav stops here*/
@@ -146,7 +151,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-   background-color: #9EE5DD;
+    background-color: #9EE5DD;
 
 }
 
@@ -207,14 +212,14 @@ nav ul li a:hover {
 
 .forecast {
     display: flex;
-   margin: 1rem;
-    
+    margin: 1rem;
+
     background-color: #bce0dd;
 }
 
 .contentbox {
-   padding-left: 1rem;
-    
+    padding-left: 1rem;
+
 }
 
 .flex-col {
@@ -248,8 +253,8 @@ img {
 
 .gallery {
     margin: 0px auto;
-    background-color:#9EE5DD ;
-text-align: center;
+    background-color: #9EE5DD;
+    text-align: center;
 }
 
 figure {
@@ -273,14 +278,14 @@ figcaption {
     justify-content: center;
     max-width: 100%;
     margin: 1rem auto;
-   background-color: #9EE5DD;
+    background-color: #9EE5DD;
     padding: 1rem;
 }
 
 /* rental table starts here */
 .rental-table {
     max-width: 100%;
- 
+
     padding: 1rem;
 
 }
@@ -298,7 +303,7 @@ td {
 }
 
 table {
-    
+
     overflow: auto;
     width: 60%;
     box-shadow: 10px 10px 10px #cacac7;
@@ -313,7 +318,7 @@ b:only-child {
 
 tr:nth-child(odd) {
     background-color: rgb(233, 233, 233);
-    
+
 }
 
 tr:nth-child(even) {
@@ -323,7 +328,7 @@ tr:nth-child(even) {
 th,
 tfoot tr td {
     background-color: #FFDF6E;
-   
+
     padding: .5rem .5rem;
 
 }
@@ -376,13 +381,14 @@ tfoot tr td {
     background-color: #9EE5DD;
     padding-bottom: 1rem;
 }
+
 .agreement ul {
-        border-left: 5px solid red;
-        line-height: 1.5rem;
-        list-style-type: none;
-        padding: 10px 20px;
-        margin: 1rem;
-      }
+    border-left: 5px solid red;
+    line-height: 1.5rem;
+    list-style-type: none;
+    padding: 10px 20px;
+    margin: 1rem;
+}
 
 form fieldset {
     margin: 0 auto;
@@ -544,41 +550,47 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
     width: 100%;
     margin: 1rem 0 1rem;
 }
 
 .address section {
     margin: .5rem;
-   line-height: 2rem;
+    line-height: 2rem;
     text-align: center;
-    
+
 }
+
 .address ul {
     padding: 0px;
 }
+
 .address li {
-    
+
     width: 100%;
-   margin: 0px 8px 0px 8px;
+    margin: 0px 8px 0px 8px;
 }
+
 .address p {
     padding: 0 1rem 0 1rem;
-  } 
-  iframe {
-max-width: 350px;
+}
+
+iframe {
+    max-width: 350px;
     margin: 1rem;
 }
+
 .map {
     text-align: center;
-    background-color:   #9EE5DD
-
+    background-color: #9EE5DD
 }
+
 .locale h2 {
     margin: 0px;
     padding: 10px;
 }
+
 /*this is footer*/
 footer {
     display: block;
