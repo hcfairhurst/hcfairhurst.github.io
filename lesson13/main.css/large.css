@@ -6,7 +6,12 @@
     
     font-size: 3rem;
     }
-    
+    h5 {
+        font-size: 5rem;
+      }
+      h6 {
+        font-size: 3.5rem;
+      }
     nav ul li a{padding: .6rem 1rem;} 
     iframe {
         max-width: 950px;

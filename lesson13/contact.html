@@ -24,9 +24,9 @@
                 <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="rentals.html">Rentals</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="tours.html">Tours</a></li>
-                <li class="active"><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Book Now</a></li>
+                <li><a href="tours.html">Explore</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
 
 
             </ul>
@@ -37,15 +37,24 @@
 
             <section class="headings">
                 <h1> Scoots.com </h1>
-                <div>Get rolling on your next Adventure</div>
+                <div>The Best Way to See Cozumel</div>
         </div>
+        <section class="banner">
+            <picture class="photoA">
+                <source media="(min-width: 250px) and (max-width: 500px)" srcset="/lesson13/images/banner1000.jpg">
+                <source media="(min-width: 501px) and (max-width: 799px)" srcset="/lesson13/images/banner1500.jpg">
+                <source media="(min-width: 800px)" srcset="/lesson13/images/banner2000.jpg">
+                <img id="heroimg" src="/lesson13/images/banner2000.jpg" alt="green rolling hills">
+            </picture>
+            <div class="title"><h5>Let Us Help</h5></div>
+        </section>
 </header>
 <main class="locale">
     
     <div>
         <form method="get" action="confirmation.html">
             <fieldset>
-                <legend>Let Us Help</legend>
+               
                 <h3>Fill our the form below to request any information. We will respond as soon as possible.</h3>
                 <label class="top"> Full name* <input type="text" name="fullname" required pattern="[A-Za-z].{4,}"
                         placeholder="First, Last"></label>

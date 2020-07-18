@@ -1,9 +1,13 @@
 @media only screen and (min-width: 35em) {
-
+  h5 {
+    font-size: 3.5rem;
+    padding-top: .75rem;  }
   .navigation {
     display: flex;
   }
-
+h6 {
+  font-size: 2.5rem;
+}
   .navigation li:first-child {
     display: none;
   }
@@ -19,7 +23,7 @@
   }
 
   .icon {
-    margin-top: 3rem;
+    
     display: flex;
     flex-direction: row;
   }
@@ -37,7 +41,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1rem auto;
+    margin: 0rem auto;
     max-width: 100%;
   }
   .rentalSum {
@@ -49,12 +53,7 @@
 
   }
 
-  .section3 {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    margin: 0 auto;
-  }
+  
 
   /* this is the gallery grid code*/
   .grid {
