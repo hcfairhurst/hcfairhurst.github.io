@@ -143,8 +143,11 @@ nav ul li a:hover {
 
 .active {
     background-color: #FFA630;
+    
 }
-
+.active a{
+    color:rgb(53, 52, 52);
+}
 /*nav stops here*/
 /* index.html page specifics start here*/
 .section1 {
