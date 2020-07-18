@@ -16,5 +16,8 @@
     iframe {
         max-width: 950px;
       }
-   
+      .ruin-img {
+        display: flex;
+        width: 100%;
+    }
 }
