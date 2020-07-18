@@ -1,6 +1,6 @@
 @media only screen and (min-width: 35em) {
   h5 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     padding-top: .75rem;  }
   .navigation {
     display: flex;
@@ -64,6 +64,10 @@ h6 {
   
   #flat-table {
     width: 80%;
+  }
+  td {
+    font-size: 1rem;
+    padding: .5rem .5rem;
   }
   /*form starts here8?
 /* this is the form code*/
