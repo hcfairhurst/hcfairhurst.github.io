@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&display=swap');
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
    
 }
 header {
@@ -9,9 +11,10 @@ header {
  }
 h1 {
     color: #FAEBD7;
+    font-family: Lora;
 }
 
-a {
+header a {
     text-decoration: none;
     color: #FAEBD7;
 }
@@ -26,8 +29,22 @@ nav ul li {
 }
 main{ 
     background-color: #FAEBD7;
+    margin: 0px;
+    
 }
 article {
     background-color: white;
+    padding: .5rem;
     margin: 1.5rem;
+    box-shadow: 0px 0px 2px rgb(5, 5, 5);
+}
+
+   
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+.post-date {
+    color: darkgray;
 }
