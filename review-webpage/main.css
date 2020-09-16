@@ -1,50 +1,153 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,400&display=swap');
+
 body {
+    background-color: #0a0a0a;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-   
+   display: flex;
+   justify-content: center;
 }
+
+
 header {
-    background-color:  #6495ED;
-    padding: 1rem;
+    background-color: #6495ED;
+    padding: 2rem;
     text-align: right;
- }
-h1 {
-    color: #FAEBD7;
-    font-family: Lora;
+    
 }
 
 header a {
-    text-decoration: none;
     color: #FAEBD7;
 }
+
+header a:hover {
+    color: #DEB887;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 35em) {
+    body div {
+        display: flex;
+        margin: 0px;
+    }
+    nav ul {
+       padding:0px;
+    }
+    header {
+        width: 200px;
+    }
+    article {
+        margin: 1rem 2.5rem 2.5rem 2.5rem;
+        padding: 2.5rem;
+    }
+    img {
+       width: 330px;
+       }
+       main {
+        padding: 2.8rem;
+       }
+}
+
+hr {
+    margin: 0px;
+}
+
+h1 {
+    padding: 0px;
+    color: #FAEBD7;
+    font-family: Lora;
+    font-size: 2rem;
+
+}
+
+h2 {
+    font-family: Lora;
+   margin-top: 0px;
+   padding-bottom: 1rem;
+   font-size: 1.5rem;
+   
+}
+h2 a {
+    color: black;
+}
+h2 a:active {
+    color: #DEB887;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 nav ul {
     list-style: none;
     margin: 0px;
-    padding: 1rem;
-    
+    padding:1rem;
 }
+
 nav ul li {
     padding: .5rem;
+    display: block;
+    font-size: 1rem;
+    font-size: 13px;
 }
-main{ 
+
+nav a:visited {
+    color: #FAEBD7;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #DEB887;
+}
+
+main {
     background-color: #FAEBD7;
-    margin: 0px;
-    
+    padding: 2rem 1.2rem;
+    max-width: 640px;
+
 }
+
 article {
+    max-width: 500px;
     background-color: white;
-    padding: .5rem;
-    margin: 1.5rem;
-    box-shadow: 0px 0px 2px rgb(5, 5, 5);
+    padding: 2rem;
+    box-shadow: 3px 2px 3px rgb(206, 204, 204);
+    margin-bottom: 2rem;
+
 }
 
-   
-
-section a {
-    color: black;
-    text-decoration: none;
-}
 .post-date {
     color: darkgray;
+    margin: 0px;
+    font-size: 15px;
+    padding: 6px 0px;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+width: 180px;
+padding-top: 2rem;
+}
+p {
+    font-size: .9rem;
+}
+p a {
+    color:#6495ED;
+}
+p a:hoover {
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    
 }
