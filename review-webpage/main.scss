@@ -1,0 +1,166 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
+
+body {
+    background-color: #0a0a0a;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #6495ED;
+    padding: 2rem;
+    text-align: right;
+
+    a {
+        color: #FAEBD7;
+        margin: 0px 8px;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #DEB887;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 35em) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    body div {
+        display: flex;
+        margin: 0px;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+
+    header {
+        width: 190px;
+    }
+
+    article {
+        margin: 1rem 2.5rem 2.5rem 2.5rem;
+    }
+}
+
+hr {
+    margin: 0px 0px 0px 5px;
+}
+
+h1 {
+    padding: 0px;
+    font-family: Lora;
+}
+
+h2 {
+    font-family: Lora;
+    margin-top: 0px;
+    padding-bottom: 1rem;
+    font-size: 1.7rem;
+}
+
+h2 a {
+    color: black;
+
+    :hover {
+        text-decoration: underline;
+        color: #6495ED;
+    }
+
+    :active {
+        color: #DEB887;
+    }
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-top: 0.5rem;
+
+    li {
+        padding: 0.4rem 0px;
+        display: block;
+        font-size: 14px;
+    }
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #DEB887;
+}
+
+main {
+    background-color: #FAEBD7;
+    padding: 2rem 1.2rem;
+    max-width: 640px;
+}
+
+article {
+    max-width: 500px;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 3px 2px 3px #cecccc;
+    margin-bottom: 2rem;
+}
+
+.post-date {
+    color: #838282;
+    margin: 0px;
+    font-size: 15px;
+    padding: 6px 0px;
+}
+
+figure {
+    text-align: center;
+}
+
+img {
+    max-width: 92%;
+    padding-top: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+p a {
+    color: #6495ED;
+
+    :hover {
+        text-decoration: underline;
+    }
+
+    :active {
+        color: #DEB887;
+    }
+}
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
