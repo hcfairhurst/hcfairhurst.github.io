@@ -2,9 +2,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap");
 
+/*VARIABLES*/
+$active-color: #DEB887;
+$pageNnav-color: #FAEBD7;
+$accent-color:  #6495ED;
+$boxNhover-color: white;
+$accent-font: Lora;
+
+
 body {
-    background-color: #0a0a0a;
-    margin: 0px;
+   margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,36 +20,35 @@ a {
 }
 
 header {
-    background-color: #6495ED;
+    background-color: $accent-color;
     padding: 2rem;
     text-align: right;
 
     a {
-        color: #FAEBD7;
+        color: $pageNnav-color;
         margin: 0px 8px;
-    }
+   
 
-    a:hover {
-        color: white;
+    &:hover {
+        color: $boxNhover-color;
         text-decoration: underline;
     }
 
-    a:active {
-        color: #DEB887;
+    &:active {
+        color: $active-color;
     }
 }
-
+}
 @media only screen and (min-width: 35em) {
     body {
         display: flex;
         justify-content: center;
+    
+        div {
+            display: flex;
+            margin: 0px;
+        }
     }
-
-    body div {
-        display: flex;
-        margin: 0px;
-    }
-
     nav ul {
         padding: 0px;
     }
@@ -62,27 +68,26 @@ hr {
 
 h1 {
     padding: 0px;
-    font-family: Lora;
+    font-family: $accent-font;
 }
 
 h2 {
-    font-family: Lora;
+    font-family: $accent-font;
     margin-top: 0px;
     padding-bottom: 1rem;
     font-size: 1.7rem;
-}
-
-h2 a {
-    color: black;
-
-    :hover {
+    a {
+        color: black;
+   
+    &:hover {
         text-decoration: underline;
-        color: #6495ED;
+        color: $accent-color;
     }
-
-    :active {
-        color: #DEB887;
+    
+    &:active {
+        color: $active-color;
     }
+}
 }
 
 nav ul {
@@ -98,23 +103,23 @@ nav ul {
 }
 
 nav a:hover {
-    color: white;
+    color: $boxNhover-color;
     text-decoration: underline;
 }
 
 nav a:active {
-    color: #DEB887;
+    color: $active-color;
 }
 
 main {
-    background-color: #FAEBD7;
+    background-color: $pageNnav-color;
     padding: 2rem 1.2rem;
     max-width: 640px;
 }
 
 article {
     max-width: 500px;
-    background-color: white;
+    background-color: $boxNhover-color;
     padding: 2rem;
     box-shadow: 3px 2px 3px #cecccc;
     margin-bottom: 2rem;
@@ -138,20 +143,19 @@ img {
 
 p {
     font-size: 1rem;
-}
-
-p a {
-    color: #6495ED;
-
-    :hover {
+     a {
+        color: $accent-color;
+    
+    
+    &:hover {
         text-decoration: underline;
     }
-
-    :active {
-        color: #DEB887;
+    
+    &:active {
+        color: $active-color;
     }
 }
-
+}
 
 
 
