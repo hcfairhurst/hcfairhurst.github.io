@@ -7,12 +7,22 @@ $active-color: #DEB887;
 $pageNnav-color: #FAEBD7;
 $accent-color:  #6495ED;
 $boxNhover-color: white;
+//Font
 $accent-font: Lora;
+//Breakpoints
+$break-small: 20em;
+$break-medium: 35em;
+$break-large: 60em;
 
+@mixin hover ($hov-color:transparent) {
+    text-decoration: underline;
+    color:$hov-color;
+} 
 
 body {
    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 a {
@@ -30,16 +40,15 @@ header {
    
 
     &:hover {
-        color: $boxNhover-color;
-        text-decoration: underline;
+        @include hover($boxNhover-color);
     }
-
     &:active {
         color: $active-color;
     }
 }
 }
-@media only screen and (min-width: 35em) {
+
+@media only screen and (min-width: $break-medium) {
     body {
         display: flex;
         justify-content: center;
@@ -80,8 +89,7 @@ h2 {
         color: black;
    
     &:hover {
-        text-decoration: underline;
-        color: $accent-color;
+        @include hover($accent-color);
     }
     
     &:active {
@@ -103,8 +111,8 @@ nav ul {
 }
 
 nav a:hover {
-    color: $boxNhover-color;
-    text-decoration: underline;
+    @include hover ($boxNhover-color);
+   
 }
 
 nav a:active {
@@ -148,7 +156,7 @@ p {
     
     
     &:hover {
-        text-decoration: underline;
+        @include hover($accent-color);
     }
     
     &:active {

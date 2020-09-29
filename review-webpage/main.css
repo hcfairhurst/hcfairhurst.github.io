@@ -19,8 +19,8 @@ header a {
   margin: 0px 8px;
 }
 header a:hover {
-  color: white;
   text-decoration: underline;
+  color: white;
 }
 header a:active {
   color: #DEB887;
@@ -86,8 +86,8 @@ nav ul li {
 }
 
 nav a:hover {
-  color: white;
   text-decoration: underline;
+  color: white;
 }
 
 nav a:active {
@@ -132,6 +132,7 @@ p a {
 }
 p a:hover {
   text-decoration: underline;
+  color: #6495ED;
 }
 p a:active {
   color: #DEB887;
